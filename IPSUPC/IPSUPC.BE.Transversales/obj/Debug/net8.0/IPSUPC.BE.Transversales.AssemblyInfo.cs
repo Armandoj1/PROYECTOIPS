@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IPSUPC.BE.Transversales")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+093c3f5fc46d832917cca056255d5d78f3a43109")]
 [assembly: System.Reflection.AssemblyProductAttribute("IPSUPC.BE.Transversales")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IPSUPC.BE.Transversales")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

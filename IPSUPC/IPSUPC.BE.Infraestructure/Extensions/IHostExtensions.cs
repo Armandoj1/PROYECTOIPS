@@ -3,8 +3,6 @@ using IPSUPC.BE.Infraestructure.Persistence.SeedData;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System.Data.Entity;
-
 
 namespace Microsoft.AspNetCore.Hosting;
 

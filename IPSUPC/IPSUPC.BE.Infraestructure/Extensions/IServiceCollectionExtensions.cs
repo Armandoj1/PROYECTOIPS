@@ -1,5 +1,6 @@
 ﻿using IPSUPC.BE.Infraestructure.Persintence;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer; 
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 

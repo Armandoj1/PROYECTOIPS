@@ -1,8 +1,6 @@
 ﻿using IPSUPC.BE.Transversales.Common;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using System.Data.Entity;
-
 namespace IPSUPC.BE.Infraestructure.Extensions;
 
 

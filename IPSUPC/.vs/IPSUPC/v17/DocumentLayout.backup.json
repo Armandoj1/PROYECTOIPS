@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|solutionrelative:ipsupc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\persintence\\ipsupcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\persintence\\ipsupcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\extensions\\imediatorextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\extensions\\imediatorextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\extensions\\iservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\extensions\\iservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\data\\dbconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\data\\dbconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\extensions\\ihostextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\extensions\\ihostextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.transversales\\common\\iauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +33,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.transversales\\common\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|solutionrelative:ipsupc.be.transversales\\common\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|solutionrelative:ipsupc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.transversales\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,30 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\persintence\\seeddata\\sampledataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\persintence\\seeddata\\sampledataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\persintence\\ipsupcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\persintence\\ipsupcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\extensions\\iservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\extensions\\iservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\extensions\\imediatorextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\extensions\\imediatorextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\extensions\\ihostextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\extensions\\ihostextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\data\\dbconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\data\\dbconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BD0DD5F-8A42-4071-B67A-46760F20B191}|IPSUPC.BE.Repositorio.Interface\\IPSUPC.BE.Repositorio.Interface.csproj|c:\\users\\dario\\onedrive\\escritorio\\proyectoips\\ipsupc\\ipsupc.be.repositorio.interface\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,24 +78,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
-              "RelativeDocumentMoniker": "IPSUPC\\Program.cs",
-              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
-              "RelativeToolTip": "IPSUPC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Class1.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Class1.cs",
+              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:20:29.965Z",
+              "WhenOpened": "2025-04-04T01:05:59.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbConstants.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Data\\DbConstants.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Data\\DbConstants.cs",
+              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Data\\DbConstants.cs",
+              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Data\\DbConstants.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:06:57.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IMediatorExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IMediatorExtensions.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\IMediatorExtensions.cs",
+              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IMediatorExtensions.cs",
+              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Extensions\\IMediatorExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:10:25.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IHostExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
+              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs*",
+              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:07:56.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\IServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IServiceCollectionExtensions.cs",
+              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Extensions\\IServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:11:22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IPSUPCDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
+              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
+              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:13:04.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IAuditableEntity.cs",
               "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Common\\IAuditableEntity.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Common\\IAuditableEntity.cs",
@@ -108,72 +173,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Common\\Entity.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Common\\Entity.cs",
               "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Common\\Entity.cs",
               "RelativeToolTip": "IPSUPC.BE.Transversales\\Common\\Entity.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwDcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T01:17:28.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Class1.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Class1.cs",
-              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Class1.cs",
-              "RelativeToolTip": "IPSUPC.BE.Transversales\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
+              "RelativeDocumentMoniker": "IPSUPC\\Program.cs",
+              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
+              "RelativeToolTip": "IPSUPC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:16:57.164Z",
+              "WhenOpened": "2025-04-04T01:20:29.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SeedData.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SeedData.cs",
-              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SeedData.cs",
-              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:16:05.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SampleDataSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SampleDataSeeder.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SampleDataSeeder.cs",
-              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SampleDataSeeder.cs",
-              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SampleDataSeeder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:15:45.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IPSUPCDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
-              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
-              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:13:04.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "ModelBuilderExtensions.cs",
               "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\ModelBuilderExtensions.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\ModelBuilderExtensions.cs",
@@ -186,67 +212,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\IServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IServiceCollectionExtensions.cs",
-              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Extensions\\IServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABdAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "SampleDataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SampleDataSeeder.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SampleDataSeeder.cs",
+              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SampleDataSeeder.cs",
+              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SampleDataSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:11:22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IMediatorExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IMediatorExtensions.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\IMediatorExtensions.cs",
-              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IMediatorExtensions.cs",
-              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Extensions\\IMediatorExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:10:25.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IHostExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
-              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
-              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:07:56.328Z",
+              "WhenOpened": "2025-04-04T01:15:45.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "DbConstants.cs",
-              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Data\\DbConstants.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Data\\DbConstants.cs",
-              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Data\\DbConstants.cs",
-              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Data\\DbConstants.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCoAAAABAAAAAAAAAA==",
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SeedData.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SeedData.cs",
+              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SeedData.cs",
+              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:06:57.909Z",
+              "WhenOpened": "2025-04-04T01:16:05.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Class1.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Class1.cs",
-              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Class1.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Class1.cs",
+              "ToolTip": "C:\\Users\\dario\\OneDrive\\Escritorio\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Class1.cs",
+              "RelativeToolTip": "IPSUPC.BE.Transversales\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:05:59.074Z",
+              "WhenOpened": "2025-04-04T01:16:57.164Z",
               "EditorCaption": ""
             },
             {
