@@ -1,0 +1,11 @@
+C:\Users\dario\OneDrive\Escritorio\PROYECTOIPS\IPSUPC\IPSUPC.BE.Servicio\bin\Debug\net8.0\IPSUPC.BE.Servicio.deps.json
+C:\Users\dario\OneDrive\Escritorio\PROYECTOIPS\IPSUPC\IPSUPC.BE.Servicio\bin\Debug\net8.0\IPSUPC.BE.Servicio.dll
+C:\Users\dario\OneDrive\Escritorio\PROYECTOIPS\IPSUPC\IPSUPC.BE.Servicio\bin\Debug\net8.0\IPSUPC.BE.Servicio.pdb
+C:\Users\dario\OneDrive\Escritorio\PROYECTOIPS\IPSUPC\IPSUPC.BE.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dario\OneDrive\Escritorio\PROYECTOIPS\IPSUPC\IPSUPC.BE.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.AssemblyInfoInputs.cache
+C:\Users\dario\OneDrive\Escritorio\PROYECTOIPS\IPSUPC\IPSUPC.BE.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.AssemblyInfo.cs
+C:\Users\dario\OneDrive\Escritorio\PROYECTOIPS\IPSUPC\IPSUPC.BE.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.csproj.CoreCompileInputs.cache
+C:\Users\dario\OneDrive\Escritorio\PROYECTOIPS\IPSUPC\IPSUPC.BE.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.dll
+C:\Users\dario\OneDrive\Escritorio\PROYECTOIPS\IPSUPC\IPSUPC.BE.Servicio\obj\Debug\net8.0\refint\IPSUPC.BE.Servicio.dll
+C:\Users\dario\OneDrive\Escritorio\PROYECTOIPS\IPSUPC\IPSUPC.BE.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.pdb
+C:\Users\dario\OneDrive\Escritorio\PROYECTOIPS\IPSUPC\IPSUPC.BE.Servicio\obj\Debug\net8.0\ref\IPSUPC.BE.Servicio.dll
