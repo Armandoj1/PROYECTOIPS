@@ -11,4 +11,10 @@
     <PackageReference Include="Microsoft.SqlServer.Server" Version="1.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\IPSUPC.BE.Infraestructure\IPSUPC.BE.Infraestructure.csproj" />
+    <ProjectReference Include="..\IPSUPC.BE.Repositorio.Interface\IPSUPC.BE.Repositorio.Interface.csproj" />
+    <ProjectReference Include="..\IPSUPC.BE.Transversales\IPSUPC.BE.Transversales.csproj" />
+  </ItemGroup>
+
 </Project>

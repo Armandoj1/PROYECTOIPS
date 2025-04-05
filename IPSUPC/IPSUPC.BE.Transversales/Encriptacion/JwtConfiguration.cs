@@ -1,0 +1,67 @@
+﻿using IPSUPC.BE.Transversales.Entidades;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
+using System.Security.Claims;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IPSUPC.BE.Transversales.Encriptacion
+{
+    public class JwtConfiguration
+    {
+        public static string GetToken(UsuarioDTO usuarioInfo, IConfiguration config)
+        {
+            string secretKey = config["Jwt:SecretKey"];
+            string issuer = config["Jwt:Issuer"];
+            string audience = config["Jwt:Audience"];
+
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+
+            var roles = usuarioInfo.RolId.Split(',');
+
+            var claims = new List<Claim>
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, usuarioInfo.NombreUsuario),
+                new Claim("Id", usuarioInfo.Id.ToString()),
+                new Claim("NumeroIdentificacion",usuarioInfo.NumeroIdentificacion.ToString() )
+            };
+
+            foreach (var rol in roles)
+            {
+                claims.Add(new Claim("rol", rol.Trim()));
+            }
+
+            var token = new JwtSecurityToken(
+                issuer: issuer,
+                audience: audience,
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(10),
+                signingCredentials: credentials
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public static int GetTokenIdUsuario(ClaimsIdentity identity)
+        {
+            if (identity != null)
+            {
+                IEnumerable<Claim> claims = identity.Claims;
+                foreach (var claim in claims)
+                {
+                    if (claim.Type == "Id")
+                    {
+                        return int.Parse(claim.Value);
+                    }
+                }
+            }
+            return 0;
+        }
+    }
+}

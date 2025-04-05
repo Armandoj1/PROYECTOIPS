@@ -1,5 +1,116 @@
 [
   {
+    "ContainingType": "IPSUPC.Controllers.UsuarioController",
+    "Method": "Create",
+    "RelativePath": "api/Usuario/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "IPSUPC.BE.Transversales.Entidades.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.UsuarioController",
+    "Method": "Delete",
+    "RelativePath": "api/Usuario/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.UsuarioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Usuario/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.UsuarioController",
+    "Method": "GetById",
+    "RelativePath": "api/Usuario/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.UsuarioController",
+    "Method": "GetByNumeroIdentificacion",
+    "RelativePath": "api/Usuario/GetByNumeroIdentificacion/{numeroIdentificacion}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroIdentificacion",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.UsuarioController",
+    "Method": "GetCredenciales",
+    "RelativePath": "api/Usuario/GetCredenciales/{usuario}/{password}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.UsuarioController",
+    "Method": "Update",
+    "RelativePath": "api/Usuario/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "IPSUPC.BE.Transversales.Entidades.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "IPSUPC.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

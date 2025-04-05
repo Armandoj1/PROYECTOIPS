@@ -13,6 +13,7 @@ public static class DbConstants
     {
         //Añadir las tablas ejemplo debajo
         //public const string Productos = nameof(Productos);
+        public const string Usuarios = nameof(Usuarios);
         public const string EFMigrationsHistory = $"_{nameof(EFMigrationsHistory)}_";
     }
 
@@ -21,9 +22,11 @@ public static class DbConstants
         public const int Nombre = 250;
         public const int Email = 320;
         public const int Telefono = 15;
+        public const int Contrasena = 100;
         public const int Direccion = 200;
         public const int CodigoPostal = 10;
         public const int Usuario = 100;
+        public const int NumeroIdentificacion = 15;
         public const int Descripcion = 300;
     }
 

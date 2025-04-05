@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MediatR;
 using IPSUPC.BE.Infraestructure.Extensions;
+using IPSUPC.BE.Transversales.Entidades;
 
 namespace IPSUPC.BE.Infraestructure.Persintence
 {
@@ -11,6 +12,7 @@ namespace IPSUPC.BE.Infraestructure.Persintence
         #region Entities
 
         // Agrega aquí tus DbSet cuando los tengas
+        public DbSet<Usuario> Usuarios { get; set; }
 
         #endregion
 

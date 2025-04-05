@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35731.43 d17.13
+VisualStudioVersion = 17.13.35731.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSUPC", "IPSUPC\IPSUPC.csproj", "{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}"
 EndProject
@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{A868EE38-AE4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSUPC.BE.Servicio.Interface", "IPSUPC.BE.Servicio.Interface\IPSUPC.BE.Servicio.Interface.csproj", "{09EBD325-65B9-4966-B4BF-BDB5FF5413F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSUPC.Servicio", "IPSUPC.Servicio\IPSUPC.Servicio.csproj", "{3C0028C2-9877-4562-BB8F-271F83E9BA2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSUPC.BE.Servicio", "IPSUPC.Servicio\IPSUPC.BE.Servicio.csproj", "{3C0028C2-9877-4562-BB8F-271F83E9BA2A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{C5DF099F-1D83-4956-B99F-5AAE41835BE7}"
 EndProject

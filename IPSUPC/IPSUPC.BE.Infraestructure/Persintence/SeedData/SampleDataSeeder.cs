@@ -1,5 +1,8 @@
 ﻿
 using IPSUPC.BE.Infraestructure.Persintence;
+using IPSUPC.BE.Transversales;
+using IPSUPC.BE.Transversales.Entidades;
+using Microsoft.EntityFrameworkCore;
 
 namespace IPSUPC.BE.Infraestructure.Persistence.SeedData;
 
@@ -12,15 +15,10 @@ public static class SampleDataSeeder
 
         // Verifica si los datos ya existen antes de insertarlos
         //Poner datos de prueba, cuando las primeras clases estén para la migración
-        //if (!await context.Set<EstadoVenta>().AnyAsync())
-        //{
-        //    context.Set<EstadoVenta>().AddRange(EstadoVenta.GetAll());
-        //}
-
-        //if (!await context.Set<MetodoPago>().AnyAsync())
-        //{
-        //    context.Set<MetodoPago>().AddRange(MetodoPago.GetAll());
-        //}
+        if (!await context.Set<Rol>().AnyAsync())
+        {
+            context.Set<Rol>().AddRange(Rol.GetAll());
+        }
 
         //if (!await context.Set<TipoCliente>().AnyAsync())
         //{
