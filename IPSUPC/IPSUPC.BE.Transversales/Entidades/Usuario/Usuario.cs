@@ -1,6 +1,6 @@
 ﻿namespace IPSUPC.BE.Transversales.Entidades;
 
-public class Usuario
+public class Usuario : AuditableEntity
 {
     public int Id { get; set; }
     public string NombreUsuario { get; set; }

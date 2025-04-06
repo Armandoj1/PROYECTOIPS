@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "usuario",
-        "Type": "IPSUPC.BE.Transversales.Entidades.Usuario",
+        "Type": "IPSUPC.BE.Transversales.Entidades.UsuarioCreateDTO",
         "IsRequired": true
       }
     ],
@@ -75,20 +75,15 @@
   },
   {
     "ContainingType": "IPSUPC.Controllers.UsuarioController",
-    "Method": "GetCredenciales",
-    "RelativePath": "api/Usuario/GetCredenciales/{usuario}/{password}",
-    "HttpMethod": "GET",
+    "Method": "Login",
+    "RelativePath": "api/Usuario/login",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuario",
-        "Type": "System.String",
-        "IsRequired": true
-      },
-      {
-        "Name": "password",
-        "Type": "System.String",
+        "Name": "loginRequest",
+        "Type": "IPSUPC.BE.Transversales.Entidades.CustomLoginRequest",
         "IsRequired": true
       }
     ],
@@ -97,14 +92,19 @@
   {
     "ContainingType": "IPSUPC.Controllers.UsuarioController",
     "Method": "Update",
-    "RelativePath": "api/Usuario/Update",
+    "RelativePath": "api/Usuario/Update/{Id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "usuario",
-        "Type": "IPSUPC.BE.Transversales.Entidades.Usuario",
+        "Type": "IPSUPC.BE.Transversales.Entidades.UsuarioCreateDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "",
         "IsRequired": true
       }
     ],

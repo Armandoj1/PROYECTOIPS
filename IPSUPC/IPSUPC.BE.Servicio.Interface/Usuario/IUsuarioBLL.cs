@@ -1,14 +1,14 @@
 ﻿using IPSUPC.BE.Transversales.Entidades;
-
+using Microsoft.Extensions.Configuration;
 namespace IPSUPC.BE.Servicio.Interface;
 
 public interface IUsuarioBLL
 {
-    Task<IEnumerable<Usuario>> GetUsuarioAsync();
-    Task<Usuario> GetUsuarioByIdAsync(int id);
+    Task<IEnumerable<UsuarioDTO>> GetUsuarioAsync();
+    Task<UsuarioDTO> GetUsuarioByIdAsync(int id);
     Task<IEnumerable<Usuario>> GetUsuarioByNumeroIdentificacionAsync(string numeroIdentificacion);
-    Task<Usuario> CreateUsuarioAsync(Usuario usuario);
-    Task<Usuario> UpdateUsuarioAsync(Usuario usuario);
+    Task<UsuarioCreateDTO> CreateUsuarioAsync(UsuarioCreateDTO usuario);
+    Task<UsuarioCreateDTO> UpdateUsuarioAsync(UsuarioCreateDTO usuario);
     Task<Usuario> DeleteUsuarioAsync(int id);
-    Task<IEnumerable<Usuario>> GetUsuarioByCredentialsAsync(string nombreUsuario, string passwordEncriptada);
+    Task<string> LoginAsync(string nombreUsuario, string password, IConfiguration config);
 }

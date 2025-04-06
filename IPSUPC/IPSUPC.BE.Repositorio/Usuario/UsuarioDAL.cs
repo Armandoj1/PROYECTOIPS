@@ -1,4 +1,5 @@
-﻿using IPSUPC.BE.Infraestructure.Persintence;
+﻿using AutoMapper;
+using IPSUPC.BE.Infraestructure.Persintence;
 using IPSUPC.BE.Repositorio.Interface;
 using IPSUPC.BE.Transversales;
 using IPSUPC.BE.Transversales.Entidades;
@@ -9,10 +10,12 @@ namespace IPSUPC.BE.Repositorio;
 public class UsuarioDAL : IUsuarioDAL
 {
     private readonly IPSUPCDbContext _context;
+    private readonly IMapper _mapper;
 
-    public UsuarioDAL(IPSUPCDbContext context)
+    public UsuarioDAL(IPSUPCDbContext context, IMapper mapper)
     {
         _context = context;
+        _mapper = mapper;
     }
 
     public async Task<IEnumerable<Usuario>> GetUsuarioAsync()
@@ -32,41 +35,50 @@ public class UsuarioDAL : IUsuarioDAL
             .ToListAsync();
     }
 
-    public async Task<Usuario> CreateUsuarioAsync (Usuario usuario)
+    public async Task<UsuarioCreateDTO> CreateUsuarioAsync(UsuarioCreateDTO usuarioDto)
     {
+        var usuario = _mapper.Map<Usuario>(usuarioDto);
         usuario.Contrasena = Encrypt.EncriptarContrasena(usuario.Contrasena);
 
         await _context.Usuarios.AddAsync(usuario);
         await _context.SaveChangesAsync();
 
-        return usuario;
+        return usuarioDto;
     }
-    public async Task<Usuario> UpdateUsuarioAsync(Usuario usuario)
+
+    public async Task<UsuarioCreateDTO> UpdateUsuarioAsync(UsuarioCreateDTO usuarioDto)
     {
-        usuario.Contrasena = Encrypt.EncriptarContrasena(usuario.Contrasena);
-        _context.Usuarios.Update(usuario);
+        var usuarioExistente = await _context.Usuarios.FindAsync(usuarioDto.Id);
+
+        if (usuarioExistente is null)
+            throw new Exception("Usuario no encontrado");
+
+        _mapper.Map(usuarioDto, usuarioExistente);
+        usuarioExistente.Contrasena = Encrypt.EncriptarContrasena(usuarioDto.Contrasena);
+
         await _context.SaveChangesAsync();
-        return usuario;
+        return usuarioDto;
     }
+    
 
     public async Task<Usuario> DeleteUsuarioAsync(int id)
     {
         var usuario = await _context.Usuarios.FindAsync(id);
         if (usuario != null)
         {
+            _context.Entry(usuario).State = EntityState.Deleted;
             usuario.Estado = 'I';
             await _context.SaveChangesAsync();
         }
-
         return usuario;
     }
+
 
     public async Task<IEnumerable<Usuario>> GetUsuarioByCredentialsAsync(string nombreUsuario, string passwordEncriptada)
     {
         return await _context.Usuarios
             .Where(u => u.NombreUsuario == nombreUsuario &&
-                        u.Contrasena == passwordEncriptada &&
-                        u.Estado == 'A')
+                        u.Contrasena == passwordEncriptada)
             .ToListAsync();
     }
 }

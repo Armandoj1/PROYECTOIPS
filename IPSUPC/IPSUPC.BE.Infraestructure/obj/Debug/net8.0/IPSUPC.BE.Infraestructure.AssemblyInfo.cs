@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IPSUPC.BE.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+017e867d2b4043e6b5a03cba80f34633b040ca31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f9fe1e0657784ae321b3507b4c3a250ce7c2c5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("IPSUPC.BE.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IPSUPC.BE.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

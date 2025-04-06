@@ -240,3 +240,5 @@ C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\bin\
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

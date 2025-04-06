@@ -1,18 +1,22 @@
 ﻿using IPSUPC.BE.Servicio.Interface;
 using IPSUPC.BE.Transversales.Entidades;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 namespace IPSUPC.Controllers
 {
     [Route("api/[controller]")]
-    public class UsuarioController
+    public class UsuarioController : ControllerBase
     {
 
         private readonly IUsuarioBLL _usuarioBLL;
+        private readonly IConfiguration _configuration;
 
-        public UsuarioController(IUsuarioBLL usuarioBLL)
+        public UsuarioController(IUsuarioBLL usuarioBLL, IConfiguration configuration)
         {
             _usuarioBLL = usuarioBLL;
+            _configuration = configuration;
         }
 
         [HttpGet("GetAll")]
@@ -37,14 +41,14 @@ namespace IPSUPC.Controllers
         }
 
         [HttpPost("Create")]
-        public async Task<IActionResult> Create([FromBody] Usuario usuario)
+        public async Task<IActionResult> Create([FromBody] UsuarioCreateDTO usuario)
         {
             var result = await _usuarioBLL.CreateUsuarioAsync(usuario);
             return new OkObjectResult(result);
         }
 
-        [HttpPut("Update")]
-        public async Task<IActionResult> Update([FromBody] Usuario usuario)
+        [HttpPut("Update/{Id}")]
+        public async Task<IActionResult> Update([FromBody] UsuarioCreateDTO usuario)
         {
             var result = await _usuarioBLL.UpdateUsuarioAsync(usuario);
             return new OkObjectResult(result);
@@ -57,11 +61,22 @@ namespace IPSUPC.Controllers
             return new OkObjectResult(result);
         }
 
-        [HttpGet("GetCredenciales/{usuario}/{password}")]
-        public async Task<IActionResult> GetCredenciales(string usuario, string password)
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] CustomLoginRequest loginRequest)
         {
-            var result = await _usuarioBLL.GetUsuarioByCredentialsAsync(usuario, password);
-            return new OkObjectResult(result);
+            try
+            {
+                var token = await _usuarioBLL.LoginAsync(loginRequest.NombreUsuario, loginRequest.Password, _configuration);
+                return Ok(new { token });
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Unauthorized(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
     }
