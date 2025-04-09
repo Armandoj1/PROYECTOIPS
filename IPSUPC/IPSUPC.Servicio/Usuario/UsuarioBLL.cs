@@ -5,17 +5,21 @@ using IPSUPC.BE.Transversales.Encriptacion;
 using IPSUPC.BE.Transversales;
 using IPSUPC.BE.Transversales.Entidades;
 using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
+using IPSUPC.BE.Infraestructure.Persintence;
 
 namespace IPSUPC.BE.Servicio;
 public class UsuarioBLL : IUsuarioBLL
 {
     private readonly IUsuarioDAL _usuarioDAL;
     private readonly IMapper _mapper;
+    private readonly IPSUPCDbContext _context;
 
-    public UsuarioBLL(IUsuarioDAL usuarioDAL, IMapper mapper)
+    public UsuarioBLL(IUsuarioDAL usuarioDAL, IMapper mapper, IPSUPCDbContext context)
     {
         _usuarioDAL = usuarioDAL;
         _mapper = mapper;
+        _context = context;
     }
 
     public async Task<IEnumerable<UsuarioDTO>> GetUsuarioAsync()
@@ -30,9 +34,9 @@ public class UsuarioBLL : IUsuarioBLL
         return _mapper.Map<UsuarioDTO>(usuarios);
     }
 
-    public async Task<IEnumerable<Usuario>> GetUsuarioByNumeroIdentificacionAsync(string numeroIdentificacion)
+    public async Task<IEnumerable<UsuarioCreateDTO>> GetUsuarioByNumeroIdentificacionAsync(string numeroIdentificacion)
     {
-        return await _usuarioDAL.GetUsuarioByNumeroIdentificacionAsync(numeroIdentificacion);
+        return await _usuarioDAL.GetUsuariosByNumeroIdentificacionAsync(numeroIdentificacion);
  
     }
 
@@ -72,6 +76,11 @@ public class UsuarioBLL : IUsuarioBLL
         };
 
         return JwtConfiguration.GetToken(usuarioDTO, config);
+    }
+
+    public async Task<bool> CambiarPasswordAsync(CambiarPassword dto)
+    {
+        return await _usuarioDAL.CambiarPasswordAsync(dto.NumeroIdentificacion, dto.NuevaPassword);
     }
 
 }

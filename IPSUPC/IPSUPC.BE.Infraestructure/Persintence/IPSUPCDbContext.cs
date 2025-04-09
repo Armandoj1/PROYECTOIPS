@@ -2,6 +2,7 @@
 using MediatR;
 using IPSUPC.BE.Infraestructure.Extensions;
 using IPSUPC.BE.Transversales.Entidades;
+using IPSUPC.BE.Transversales;
 
 namespace IPSUPC.BE.Infraestructure.Persintence
 {
@@ -12,7 +13,12 @@ namespace IPSUPC.BE.Infraestructure.Persintence
         #region Entities
 
         // Agrega aquí tus DbSet cuando los tengas
-        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Medico> Medico { get; set; }
+        public DbSet<Genero> Generos { get; set; }
+        public DbSet<TipoDocumento> TipoDocumento { get; set; }
+        public DbSet<Pacientes> Pacientes { get; set; }
+        public DbSet<EstadoCivil> EstadoCivil { get; set; }
 
         #endregion
 
@@ -47,25 +53,42 @@ namespace IPSUPC.BE.Infraestructure.Persintence
 
             foreach (var entry in modifiedEntries)
             {
+                var props = entry.Properties.ToDictionary(p => p.Metadata.Name, p => p);
+
                 if (entry.State == EntityState.Added)
                 {
-                    entry.Property("CreatedDate").CurrentValue = DateTime.UtcNow;
-                    entry.Property("CreatedBy").CurrentValue = userName;
+                    if (props.ContainsKey("CreatedDate"))
+                        props["CreatedDate"].CurrentValue = DateTime.UtcNow;
+
+                    if (props.ContainsKey("CreatedBy"))
+                        props["CreatedBy"].CurrentValue = userName;
                 }
+
                 if (entry.State == EntityState.Modified)
                 {
-                    entry.Property("UpdatedDate").CurrentValue = DateTime.UtcNow;
-                    entry.Property("UpdatedBy").CurrentValue = userName;
+                    if (props.ContainsKey("UpdatedDate"))
+                        props["UpdatedDate"].CurrentValue = DateTime.UtcNow;
+
+                    if (props.ContainsKey("UpdatedBy"))
+                        props["UpdatedBy"].CurrentValue = userName;
                 }
+
                 if (entry.State == EntityState.Deleted)
                 {
-                    entry.Property("DeletedDate").CurrentValue = DateTime.UtcNow;
-                    entry.Property("DeletedBy").CurrentValue = userName;
-                    entry.Property("IsDeleted").CurrentValue = true;
+                    if (props.ContainsKey("DeletedDate"))
+                        props["DeletedDate"].CurrentValue = DateTime.UtcNow;
+
+                    if (props.ContainsKey("DeletedBy"))
+                        props["DeletedBy"].CurrentValue = userName;
+
+                    if (props.ContainsKey("IsDeleted"))
+                        props["IsDeleted"].CurrentValue = true;
+
                     entry.State = EntityState.Modified;
                 }
             }
         }
+        
 
         private void HasSequences(ModelBuilder modelBuilder)
         {

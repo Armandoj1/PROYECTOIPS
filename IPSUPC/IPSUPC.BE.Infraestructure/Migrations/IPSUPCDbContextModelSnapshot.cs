@@ -22,6 +22,341 @@ namespace IPSUPC.BE.Infraestructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("IPSUPC.BE.Transversales.Entidades.Genero", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Generos");
+                });
+
+            modelBuilder.Entity("IPSUPC.BE.Transversales.Entidades.Medico", b =>
+                {
+                    b.Property<string>("NumeroDocumento")
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("NumeroDocumento");
+
+                    b.Property<string>("AnioGraduacion")
+                        .IsRequired()
+                        .HasMaxLength(4)
+                        .HasColumnType("nvarchar(4)")
+                        .HasColumnName("AnioGraduacion");
+
+                    b.Property<string>("Celular")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("Celular");
+
+                    b.Property<string>("Ciudad")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Ciudad");
+
+                    b.Property<string>("CodigoPostal")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)")
+                        .HasColumnName("CodigoPostal");
+
+                    b.Property<string>("CorreoElectronico")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)")
+                        .HasColumnName("CorreoElectronico");
+
+                    b.Property<string>("Departamento")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Departamento");
+
+                    b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)")
+                        .HasColumnName("Direccion");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasMaxLength(1)
+                        .HasColumnType("nvarchar(1)")
+                        .HasColumnName("Estado");
+
+                    b.Property<int>("EstadoCivil")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FechaIngreso")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)")
+                        .HasColumnName("FechaIngreso");
+
+                    b.Property<string>("FechaNacimiento")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)")
+                        .HasColumnName("FechaNacimiento");
+
+                    b.Property<string>("FechaSalida")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)")
+                        .HasColumnName("FechaSalida");
+
+                    b.Property<int>("Genero")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImagenUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LugarNacimiento")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("LugarNacimiento");
+
+                    b.Property<string>("MatriculaProfesional")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("MatriculaProfesional");
+
+                    b.Property<string>("Nacionalidad")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Nacionalidad");
+
+                    b.Property<string>("Pais")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Pais");
+
+                    b.Property<string>("PrimerApellido")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("PrimerApellido");
+
+                    b.Property<string>("PrimerNombre")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("PrimerNombre");
+
+                    b.Property<string>("SegundoApellido")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("SegundoApellido");
+
+                    b.Property<string>("SegundoNombre")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("SegundoNombre");
+
+                    b.Property<string>("Telefono")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("Telefono");
+
+                    b.Property<int>("TipoDocumento")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Universidad")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Universidad");
+
+                    b.HasKey("NumeroDocumento");
+
+                    b.HasIndex("EstadoCivil");
+
+                    b.HasIndex("Genero");
+
+                    b.HasIndex("TipoDocumento");
+
+                    b.ToTable("Medicos", "dbo");
+                });
+
+            modelBuilder.Entity("IPSUPC.BE.Transversales.Entidades.Pacientes", b =>
+                {
+                    b.Property<string>("NumeroDocumento")
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("NumeroDocumento");
+
+                    b.Property<string>("Alergias")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)")
+                        .HasColumnName("Alergias");
+
+                    b.Property<string>("AntecedentesFamiliares")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)")
+                        .HasColumnName("AntecedentesFamiliares");
+
+                    b.Property<string>("Celular")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("Celular");
+
+                    b.Property<string>("Ciudad")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Ciudad");
+
+                    b.Property<string>("CodigoPostal")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)")
+                        .HasColumnName("CodigoPostal");
+
+                    b.Property<string>("CorreoElectronico")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)")
+                        .HasColumnName("CorreoElectronico");
+
+                    b.Property<string>("Departamento")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Departamento");
+
+                    b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)")
+                        .HasColumnName("Direccion");
+
+                    b.Property<string>("EnfermedadesCronicas")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)")
+                        .HasColumnName("EnfermedadesCronicas");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasMaxLength(1)
+                        .HasColumnType("nvarchar(1)")
+                        .HasColumnName("Estado");
+
+                    b.Property<int>("EstadoCivil")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("FechaNacimiento")
+                        .HasMaxLength(10)
+                        .HasColumnType("datetime2")
+                        .HasColumnName("FechaNacimiento");
+
+                    b.Property<DateTime>("FechaRegistro")
+                        .HasMaxLength(10)
+                        .HasColumnType("datetime2")
+                        .HasColumnName("FechaRegistro");
+
+                    b.Property<int>("Genero")
+                        .HasColumnType("int");
+
+                    b.Property<string>("GrupoSanguineo")
+                        .IsRequired()
+                        .HasMaxLength(3)
+                        .HasColumnType("nvarchar(3)")
+                        .HasColumnName("GrupoSanguineo");
+
+                    b.Property<string>("LugarNacimiento")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("LugarNacimiento");
+
+                    b.Property<string>("Medicamentos")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)")
+                        .HasColumnName("Medicamentos");
+
+                    b.Property<string>("Nacionalidad")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Nacionalidad");
+
+                    b.Property<string>("Pais")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Pais");
+
+                    b.Property<string>("PrimerApellido")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("PrimerApellido");
+
+                    b.Property<string>("PrimerNombre")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("PrimerNombre");
+
+                    b.Property<string>("SegundoApellido")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("SegundoApellido");
+
+                    b.Property<string>("SegundoNombre")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("SegundoNombre");
+
+                    b.Property<string>("Telefono")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("Telefono");
+
+                    b.Property<bool>("TieneAlergias")
+                        .HasColumnType("bit")
+                        .HasColumnName("TieneAlergias");
+
+                    b.Property<int>("TipoDocumento")
+                        .HasColumnType("int");
+
+                    b.HasKey("NumeroDocumento");
+
+                    b.HasIndex("EstadoCivil");
+
+                    b.HasIndex("Genero");
+
+                    b.HasIndex("TipoDocumento");
+
+                    b.ToTable("Pacientes", "dbo");
+                });
+
             modelBuilder.Entity("IPSUPC.BE.Transversales.Entidades.Usuario", b =>
                 {
                     b.Property<int>("Id")
@@ -87,6 +422,48 @@ namespace IPSUPC.BE.Infraestructure.Migrations
                     b.ToTable("Usuario", (string)null);
                 });
 
+            modelBuilder.Entity("IPSUPC.BE.Transversales.EstadoCivil", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(20)
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("EstadoCivil", "dbo");
+                });
+
+            modelBuilder.Entity("IPSUPC.BE.Transversales.Generos", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Code")
+                        .IsUnique();
+
+                    b.ToTable("Generos", "dbo");
+                });
+
             modelBuilder.Entity("IPSUPC.BE.Transversales.Rol", b =>
                 {
                     b.Property<int>("Id")
@@ -120,6 +497,69 @@ namespace IPSUPC.BE.Infraestructure.Migrations
                             Id = 3,
                             Nombre = "PACIENTE"
                         });
+                });
+
+            modelBuilder.Entity("IPSUPC.BE.Transversales.TipoDocumento", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("TipoDocumento", "dbo");
+                });
+
+            modelBuilder.Entity("IPSUPC.BE.Transversales.Entidades.Medico", b =>
+                {
+                    b.HasOne("IPSUPC.BE.Transversales.EstadoCivil", null)
+                        .WithMany()
+                        .HasForeignKey("EstadoCivil")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("IPSUPC.BE.Transversales.Generos", null)
+                        .WithMany()
+                        .HasForeignKey("Genero")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("IPSUPC.BE.Transversales.TipoDocumento", null)
+                        .WithMany()
+                        .HasForeignKey("TipoDocumento")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("IPSUPC.BE.Transversales.Entidades.Pacientes", b =>
+                {
+                    b.HasOne("IPSUPC.BE.Transversales.EstadoCivil", null)
+                        .WithMany()
+                        .HasForeignKey("EstadoCivil")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("IPSUPC.BE.Transversales.Generos", null)
+                        .WithMany()
+                        .HasForeignKey("Genero")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("IPSUPC.BE.Transversales.TipoDocumento", null)
+                        .WithMany()
+                        .HasForeignKey("TipoDocumento")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("IPSUPC.BE.Transversales.Entidades.Usuario", b =>

@@ -1,5 +1,163 @@
 [
   {
+    "ContainingType": "IPSUPC.Controllers.Medicos.MedicosController",
+    "Method": "Create",
+    "RelativePath": "api/Medicos/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medico",
+        "Type": "IPSUPC.BE.Transversales.Entidades.Medico",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.Medicos.MedicosController",
+    "Method": "Delete",
+    "RelativePath": "api/Medicos/Delete/{NumeroDocumento}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NumeroDocumento",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.Medicos.MedicosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Medicos/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.Medicos.MedicosController",
+    "Method": "GetById",
+    "RelativePath": "api/Medicos/GetById/{NumeroDocumento}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NumeroDocumento",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.Medicos.MedicosController",
+    "Method": "Update",
+    "RelativePath": "api/Medicos/Update/{NumeroDocumento}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medico",
+        "Type": "IPSUPC.BE.Transversales.Entidades.Medico",
+        "IsRequired": true
+      },
+      {
+        "Name": "NumeroDocumento",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.PacientesController",
+    "Method": "Create",
+    "RelativePath": "api/Pacientes/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paciente",
+        "Type": "IPSUPC.BE.Transversales.Entidades.Pacientes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.PacientesController",
+    "Method": "Delete",
+    "RelativePath": "api/Pacientes/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NumeroIdentificacion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.PacientesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Pacientes/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.PacientesController",
+    "Method": "GetById",
+    "RelativePath": "api/Pacientes/GetById/{NumeroDocumento}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NumeroDocumento",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.PacientesController",
+    "Method": "Update",
+    "RelativePath": "api/Pacientes/Update/{NumeroDocumento}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paciente",
+        "Type": "IPSUPC.BE.Transversales.Entidades.Pacientes",
+        "IsRequired": true
+      },
+      {
+        "Name": "NumeroDocumento",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "IPSUPC.Controllers.UsuarioController",
     "Method": "Create",
     "RelativePath": "api/Usuario/Create",
@@ -84,6 +242,22 @@
       {
         "Name": "loginRequest",
         "Type": "IPSUPC.BE.Transversales.Entidades.CustomLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.UsuarioController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Usuario/ResetPassword",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "IPSUPC.BE.Transversales.Entidades.CambiarPassword",
         "IsRequired": true
       }
     ],

@@ -14,6 +14,11 @@ public static class DbConstants
         //Añadir las tablas ejemplo debajo
         //public const string Productos = nameof(Productos);
         public const string Usuarios = nameof(Usuarios);
+        public const string Medicos = nameof(Medicos);
+        public const string Generos = nameof(Generos);
+        public const string TipoDocumento = nameof(TipoDocumento);
+        public const string Pacientes = nameof(Pacientes);
+        public const string EstadoCivil = nameof(EstadoCivil);
         public const string EFMigrationsHistory = $"_{nameof(EFMigrationsHistory)}_";
     }
 
@@ -24,6 +29,7 @@ public static class DbConstants
         public const int Telefono = 15;
         public const int Contrasena = 100;
         public const int Direccion = 200;
+        public const int EnumCode = 20;
         public const int CodigoPostal = 10;
         public const int Usuario = 100;
         public const int NumeroIdentificacion = 15;

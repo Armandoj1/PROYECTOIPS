@@ -1,8 +1,7 @@
 ﻿using IPSUPC.BE.Servicio.Interface;
 using IPSUPC.BE.Transversales.Entidades;
-using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
+
 
 namespace IPSUPC.Controllers
 {
@@ -79,5 +78,21 @@ namespace IPSUPC.Controllers
             }
         }
 
+        [HttpPatch("ResetPassword")]
+        public async Task<IActionResult> ResetPassword([FromBody] CambiarPassword dto)
+        {
+            if (dto == null || string.IsNullOrWhiteSpace(dto.NumeroIdentificacion) || string.IsNullOrWhiteSpace(dto.NuevaPassword))
+            {
+                return BadRequest("Los datos de entrada son inválidos.");
+            }
+
+            var resultado = await _usuarioBLL.CambiarPasswordAsync(dto);
+            if (!resultado)
+            {
+                return NotFound("No se pudo restablecer la contraseña.");
+            }
+
+            return Ok();
+        }
     }
 }

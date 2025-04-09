@@ -45,9 +45,18 @@ builder.Services.AddDbContext<IPSUPCDbContext>(options =>
     options.UseSqlServer(connectionString));
 
 
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+
 //Inyección de dependencias
 builder.Services.AddScoped<IUsuarioDAL, UsuarioDAL>();
 builder.Services.AddScoped<IUsuarioBLL, UsuarioBLL>();
+builder.Services.AddScoped<IPacientesDAL, PacientesDAL>();
+builder.Services.AddScoped<IPacientesBLL, PacientesBLL>();
+builder.Services.AddScoped<IMedicosDAL, MedicosDAL>();
+builder.Services.AddScoped<IMedicosBLL, MedicosBLL>();
+
+
 
 // JWT
 var jwtSettings = builder.Configuration.GetSection("Jwt");
@@ -129,6 +138,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
+
 
 
 app.UseRouting();
