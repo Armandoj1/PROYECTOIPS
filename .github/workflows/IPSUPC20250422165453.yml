@@ -18,7 +18,7 @@ env:
   API_IMPORT_SPECIFICATION_PATH: IPSUPC\publish\swagger.json
   API_IMPORT_DLL: IPSUPC\publish\IPSUPC.dll
   API_IMPORT_VERSION: v1
-  CONFIGURATION: Debug
+  CONFIGURATION: Release
   DOTNET_CORE_VERSION: 8.0.x
   WORKING_DIRECTORY: IPSUPC
 
@@ -55,7 +55,7 @@ jobs:
         working-directory: ${{ env.WORKING_DIRECTORY }}
 
       - name: Generate Open API Specification Document
-        run: swagger tofile --output "${{ env.API_IMPORT_SPECIFICATION_PATH }}" "${{ env.API_IMPORT_DLL }}" "${{ env.API_IMPORT_VERSION }}"
+        run: swagger tofile --output "${{ env.API_IMPORT_SPECIFICATION_PATH }}" "${{ env.API_IMPORT_DLL }}" "${{ env.API_IMPORT_VERSION }}" --startup-type IPSUPC.Program
 
       - name: Publish Artifacts
         uses: actions/upload-artifact@v4
