@@ -1,4 +1,4 @@
-using IPSUPC.BE.Infraestructure.Persintence;
+ï»¿using IPSUPC.BE.Infraestructure.Persintence;
 using IPSUPC.BE.Repositorio.Interface;
 using IPSUPC.BE.Repositorio;
 using IPSUPC.BE.Servicio.Interface;
@@ -19,7 +19,7 @@ if (builder.Environment.IsDevelopment())
     builder.Configuration.AddUserSecrets<Program>();
 }
 
-// Serialización JSON
+// SerializaciÃ³n JSON
 builder.Services.Configure<Microsoft.AspNetCore.Mvc.JsonOptions>(options =>
 {
     options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
@@ -49,7 +49,7 @@ builder.Services.AddDbContext<IPSUPCDbContext>(options =>
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
-//Inyección de dependencias
+//InyecciÃ³n de dependencias
 builder.Services.AddScoped<IUsuarioDAL, UsuarioDAL>();
 builder.Services.AddScoped<IUsuarioBLL, UsuarioBLL>();
 builder.Services.AddScoped<IPacientesDAL, PacientesDAL>();
@@ -119,7 +119,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-// Controladores -> Este es para el horario medico, revisar después
+// Controladores -> Este es para el horario medico, revisar despuÃ©s
 builder.Services.AddControllers();
 //    .AddJsonOptions(options =>
 //    {
@@ -130,7 +130,7 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Migraciones automáticas
+// Migraciones automÃ¡ticas
 await app.MigrateDbContext<IPSUPCDbContext>();
 
 // Middleware
@@ -150,5 +150,26 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
 });
+
+if (!Directory.Exists("publish"))
+{
+    Directory.CreateDirectory("publish");
+}
+
+using (var scope = app.Services.CreateScope())
+{
+    var swaggerProvider = scope.ServiceProvider.GetRequiredService<Swashbuckle.AspNetCore.Swagger.ISwaggerProvider>();
+    var swagger = swaggerProvider.GetSwagger("v1");
+
+    using var fileStream = File.Create("publish/swagger.json");
+    await System.Text.Json.JsonSerializer.SerializeAsync(fileStream, swagger, new System.Text.Json.JsonSerializerOptions
+    {
+        WriteIndented = true,
+        Converters = { new JsonStringEnumConverter() }
+    });
+
+    Console.WriteLine("âœ… Archivo swagger.json generado correctamente en la carpeta publish");
+}
+
 
 await app.RunAsync();
