@@ -119,14 +119,8 @@ builder.Services.AddCors(options =>
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-// Controladores -> Este es para el horario medico, revisar después
+// Controladores
 builder.Services.AddControllers();
-//    .AddJsonOptions(options =>
-//    {
-//        options.JsonSerializerOptions.Converters.Add(new JsonDateOnlyConverter());
-//    });
-
-
 
 var app = builder.Build();
 
@@ -134,9 +128,13 @@ var app = builder.Build();
 await app.MigrateDbContext<IPSUPCDbContext>();
 
 // Middleware
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction()) // Permitir Swagger en producción también
 {
-    app.UseSwagger();
+    app.UseSwagger(c =>
+    {
+        // Configurar para generar el archivo swagger.json en la raíz
+        c.RouteTemplate = "swagger/{documentName}/swagger.json";
+    });
     app.UseSwaggerUI();
 }
 
@@ -151,6 +149,10 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllers();
 });
 
+// Asegurarse de que el directorio publish existe
+// Añade esto al final de tu Program.cs, justo antes de await app.RunAsync();
+
+// Asegurarse de que el directorio publish existe
 if (!Directory.Exists("publish"))
 {
     Directory.CreateDirectory("publish");
@@ -162,13 +164,8 @@ using (var scope = app.Services.CreateScope())
     var swagger = swaggerProvider.GetSwagger("v1");
 
     using var fileStream = File.Create("publish/swagger.json");
-    await System.Text.Json.JsonSerializer.SerializeAsync(fileStream, swagger, new System.Text.Json.JsonSerializerOptions
-    {
-        WriteIndented = true,
-        Converters = { new JsonStringEnumConverter() }
-    });
-
-    Console.WriteLine("✅ Archivo swagger.json generado correctamente en la carpeta publish");
+    await System.Text.Json.JsonSerializer.SerializeAsync(fileStream, swagger);
+    Console.WriteLine("✅ swagger.json generado en publish/");
 }
 
 
