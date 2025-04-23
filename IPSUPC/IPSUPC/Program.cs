@@ -168,5 +168,4 @@ using (var scope = app.Services.CreateScope())
     Console.WriteLine("✅ swagger.json generado en publish/");
 }
 
-
 await app.RunAsync();
