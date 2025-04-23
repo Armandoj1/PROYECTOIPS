@@ -22,6 +22,9 @@ if (builder.Environment.IsDevelopment())
     builder.Configuration.AddUserSecrets<Program>();
 }
 
+// Cargar secret.json (después de AddUserSecrets si lo usas)
+builder.Configuration.AddJsonFile("secret.json", optional: true, reloadOnChange: true);
+
 // Serialización JSON
 builder.Services.Configure<Microsoft.AspNetCore.Mvc.JsonOptions>(options =>
 {
