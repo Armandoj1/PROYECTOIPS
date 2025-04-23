@@ -363,7 +363,7 @@
               "RelativeDocumentMoniker": "IPSUPC\\Program.cs",
               "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
               "RelativeToolTip": "IPSUPC\\Program.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAAAKsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAALUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T01:20:29.965Z",
               "EditorCaption": ""
@@ -414,8 +414,7 @@
               "RelativeToolTip": "IPSUPC\\Controllers\\Medicos\\MedicosController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAIwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:17:07.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T12:17:07.046Z"
             },
             {
               "$type": "Document",
