@@ -68,7 +68,12 @@ builder.Services.AddScoped<IMedicosBLL, MedicosBLL>();
 
 // JWT
 var jwtSettings = builder.Configuration.GetSection("Jwt");
+if (string.IsNullOrWhiteSpace(jwtSettings["SecretKey"]))
+    throw new InvalidOperationException("SecretKey no está configurado correctamente.");
+
 var secretKey = Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]);
+
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
