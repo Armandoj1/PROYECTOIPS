@@ -49,6 +49,7 @@ builder.Services.AddDbContext<IPSUPCDbContext>(options =>
         sqlOptions.EnableRetryOnFailure()));
 
 
+builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
@@ -119,8 +120,6 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader());
 });
 
-builder.Services.AddAutoMapper(typeof(Program));
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // Controladores
 builder.Services.AddControllers();
