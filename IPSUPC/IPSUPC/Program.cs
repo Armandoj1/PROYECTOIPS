@@ -172,13 +172,22 @@ if (args.Contains("--generate-swagger"))
 {
     using var scope = app.Services.CreateScope();
     var swaggerProvider = scope.ServiceProvider.GetRequiredService<Swashbuckle.AspNetCore.Swagger.ISwaggerProvider>();
+
+    // Generamos el swagger para la versión "v1"
     var swagger = swaggerProvider.GetSwagger("v1");
 
+    // Creamos el directorio "publish" si no existe
     Directory.CreateDirectory("publish");
+
+    // Creamos y abrimos el archivo "swagger.json" para escribir en él
     using var fileStream = File.Create("publish/swagger.json");
-    await System.Text.Json.JsonSerializer.SerializeAsync(fileStream, swagger);
+
+    // Serializamos el objeto swagger a JSON usando Newtonsoft.Json
+    var serializer = new JsonSerializer();
+    serializer.Serialize(new StreamWriter(fileStream), swagger);
+
     Console.WriteLine("✅ swagger.json generado en publish/");
-    return; // Finaliza para no levantar el servidor
 }
+
 
 await app.RunAsync();

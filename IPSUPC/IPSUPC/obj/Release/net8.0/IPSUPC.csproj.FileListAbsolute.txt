@@ -197,4 +197,4 @@ C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\bin\
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\bin\Release\net8.0\publish\IPSUPC.runtimeconfig.json
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\bin\Release\net8.0\publish\IPSUPC.staticwebassets.endpoints.json
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\bin\Release\net8.0\publish\swagger.json
-C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\bin\Release\net8.0\Newtonsoft.Json.dll
