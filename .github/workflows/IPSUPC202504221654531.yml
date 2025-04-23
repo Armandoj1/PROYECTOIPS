@@ -14,7 +14,7 @@ env:
   API_IMPORT_SPECIFICATION_PATH: IPSUPC/publish/swagger.json
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 8.0.x
-  WORKING_DIRECTORY: IPSUPC
+  WORKING_DIRECTORY: IPSUPC/IPSUPC
 jobs:
   build:
     runs-on: windows-latest
