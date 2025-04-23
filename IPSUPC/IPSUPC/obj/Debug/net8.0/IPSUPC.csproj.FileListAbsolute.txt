@@ -249,3 +249,4 @@ C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\obj\
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\obj\Debug\net8.0\IPSUPC.pdb
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\obj\Debug\net8.0\IPSUPC.genruntimeconfig.cache
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\obj\Debug\net8.0\ref\IPSUPC.dll
+C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

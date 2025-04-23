@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IPSUPC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d551f3e836111d493150d1b47be731d57374a091")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83f9aafe1673c017bf7796426c23a7f3144077ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("IPSUPC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IPSUPC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
