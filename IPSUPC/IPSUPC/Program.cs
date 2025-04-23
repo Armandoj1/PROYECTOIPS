@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
+using System.IO;
+using Swashbuckle.AspNetCore.Swagger;
 using System.Text;
 using System.Text.Json.Serialization;
 
@@ -157,11 +160,12 @@ if (!Directory.Exists("publish"))
 
 using (var scope = app.Services.CreateScope())
 {
-    var swaggerProvider = scope.ServiceProvider.GetRequiredService<Swashbuckle.AspNetCore.Swagger.ISwaggerProvider>();
+    var swaggerProvider = scope.ServiceProvider.GetRequiredService<ISwaggerProvider>();
     var swagger = swaggerProvider.GetSwagger("v1");
 
-    using var fileStream = File.Create("publish/swagger.json");
-    await System.Text.Json.JsonSerializer.SerializeAsync(fileStream, swagger);
+    var swaggerJson = JsonConvert.SerializeObject(swagger, Formatting.Indented);
+    await File.WriteAllTextAsync("publish/swagger.json", swaggerJson);
+
     Console.WriteLine("✅ swagger.json generado en publish/");
 }
 
