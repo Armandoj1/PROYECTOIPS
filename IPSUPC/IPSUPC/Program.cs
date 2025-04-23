@@ -158,15 +158,15 @@ if (!Directory.Exists("publish"))
     Directory.CreateDirectory("publish");
 }
 
-using (var scope = app.Services.CreateScope())
-{
-    var swaggerProvider = scope.ServiceProvider.GetRequiredService<ISwaggerProvider>();
-    var swagger = swaggerProvider.GetSwagger("v1");
+//using (var scope = app.Services.CreateScope())
+//{
+//    var swaggerProvider = scope.ServiceProvider.GetRequiredService<ISwaggerProvider>();
+//    var swagger = swaggerProvider.GetSwagger("v1");
 
-    var json = JsonConvert.SerializeObject(swagger, Formatting.Indented);
-    File.WriteAllText("publish/swagger.json", json);
-    Console.WriteLine("✅ swagger.json generado con Newtonsoft.Json");
-}
+//    var json = JsonConvert.SerializeObject(swagger, Formatting.Indented);
+//    File.WriteAllText("publish/swagger.json", json);
+//    Console.WriteLine("✅ swagger.json generado con Newtonsoft.Json");
+//}
 
 if (args.Contains("--generate-swagger"))
 {
