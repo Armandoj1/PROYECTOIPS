@@ -51,7 +51,5 @@ namespace IPSUPC.Controllers.Medicos
             return new OkObjectResult(result);
         }
 
-
-
     }
 }
