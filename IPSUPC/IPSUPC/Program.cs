@@ -153,10 +153,8 @@ app.UseEndpoints(endpoints =>
 });
 
 // Asegurarse de que el directorio publish existe
-if (!Directory.Exists("publish"))
-{
-    Directory.CreateDirectory("publish");
-}
+Directory.CreateDirectory("publish");
+
 
 using (var scope = app.Services.CreateScope())
 {
@@ -188,6 +186,7 @@ using (var scope = app.Services.CreateScope())
 
 //    Console.WriteLine("✅ swagger.json generado en publish/");
 //}
+
 
 
 await app.RunAsync();

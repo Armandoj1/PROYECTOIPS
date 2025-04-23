@@ -16,7 +16,7 @@ env:
   DOTNET_CORE_VERSION: 8.0.x
   WORKING_DIRECTORY: IPSUPC
 jobs:
-  build:
+   build:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v4
@@ -32,12 +32,16 @@ jobs:
       run: dotnet test ${{ env.WORKING_DIRECTORY }} --no-build
     - name: Publish
       run: dotnet publish ${{ env.WORKING_DIRECTORY }} --configuration ${{ env.CONFIGURATION }} --no-build --output ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+      
+    # 🔥 Nuevo paso: Generar swagger.json
+    - name: Generate Swagger JSON
+      run: dotnet run --project ${{ env.WORKING_DIRECTORY }} --configuration ${{ env.CONFIGURATION }}
     - name: Publish Artifacts
       uses: actions/upload-artifact@v4
       with:
         name: webapp
         path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-  deploy:
+ deploy:
     runs-on: windows-latest
     needs: build
     steps:

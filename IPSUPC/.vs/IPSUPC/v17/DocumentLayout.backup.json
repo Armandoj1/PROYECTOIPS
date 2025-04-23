@@ -296,7 +296,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -336,19 +336,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IPSUPC202504221654531.yml",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\.github\\workflows\\IPSUPC202504221654531.yml",
-              "RelativeDocumentMoniker": "..\\.github\\workflows\\IPSUPC202504221654531.yml",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\.github\\workflows\\IPSUPC202504221654531.yml",
-              "RelativeToolTip": "..\\.github\\workflows\\IPSUPC202504221654531.yml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-04-23T02:18:37.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "PacientesController.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\Pacientes\\PacientesController.cs",
@@ -379,10 +366,22 @@
               "RelativeDocumentMoniker": "IPSUPC\\Program.cs",
               "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
               "RelativeToolTip": "IPSUPC\\Program.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAmwJ0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAAASwL8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T01:20:29.965Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPSUPC202504221654531.yml",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\.github\\workflows\\IPSUPC202504221654531.yml",
+              "RelativeDocumentMoniker": "..\\.github\\workflows\\IPSUPC202504221654531.yml",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\.github\\workflows\\IPSUPC202504221654531.yml",
+              "RelativeToolTip": "..\\.github\\workflows\\IPSUPC202504221654531.yml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwCsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-04-23T02:18:37.102Z"
             },
             {
               "$type": "Document",
