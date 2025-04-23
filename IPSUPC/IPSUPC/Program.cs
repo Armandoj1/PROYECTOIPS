@@ -150,9 +150,6 @@ app.UseEndpoints(endpoints =>
 });
 
 // Asegurarse de que el directorio publish existe
-// Añade esto al final de tu Program.cs, justo antes de await app.RunAsync();
-
-// Asegurarse de que el directorio publish existe
 if (!Directory.Exists("publish"))
 {
     Directory.CreateDirectory("publish");
