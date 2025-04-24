@@ -29,13 +29,11 @@ public class MedicosBLL : IMedicosBLL
         return _mapper.Map<IEnumerable<MedicoDTO>>(medicos);
     }
 
-    public async Task<Medico> CreateMedicosAsync(MedicoDTO dto)
+    public async Task<Medico> CreateMedicosAsync(Medico medico)
     {
-        var medico = _mapper.Map<Medico>(dto);
-
-        if (dto.ImagenFile != null)
+        if (medico.ImagenFile != null)
         {
-            medico.ImagenUrl = await _cloudinaryService.SubirImagenAsync(dto.ImagenFile);
+            medico.ImagenUrl = await _cloudinaryService.SubirImagenAsync(medico.ImagenFile);
         }
 
         return await _medicosDAL.CreateMedicosAsync(medico);

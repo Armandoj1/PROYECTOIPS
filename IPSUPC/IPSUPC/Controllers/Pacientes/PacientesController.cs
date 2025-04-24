@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using IPSUPC.BE.Servicio.Interface;
 using IPSUPC.BE.Transversales.Entidades;
+using IPSUPC.BE.Servicio;
+using AutoMapper;
 
 namespace IPSUPC.Controllers
 {
@@ -10,10 +12,12 @@ namespace IPSUPC.Controllers
     {
 
         private readonly IPacientesBLL _pacienteBLL;
+        private readonly IMapper _mapper;
 
-        public PacientesController(IPacientesBLL pacienteBLL)
+        public PacientesController(IPacientesBLL pacienteBLL, IMapper mapper)
         {
             _pacienteBLL = pacienteBLL;
+            _mapper = mapper;
         }
 
         [HttpGet("GetAll")]
@@ -31,11 +35,12 @@ namespace IPSUPC.Controllers
         }
 
         [HttpPost("Create")]
-        public async Task<IActionResult> Create([FromBody] PacientesDTO paciente)
+        public async Task<IActionResult> Create([FromForm] Pacientes pacienteForm)
         {
-            var result = await _pacienteBLL.CreatePacientesAsync(paciente);
-            return new OkObjectResult(result);
+            var result = await _pacienteBLL.CreatePacientesAsync(pacienteForm);
+            return Ok(result);
         }
+
 
         [HttpPut("Update/{NumeroDocumento}")]
         public async Task<IActionResult> Update([FromBody] Pacientes paciente)

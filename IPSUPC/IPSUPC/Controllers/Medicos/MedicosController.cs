@@ -33,10 +33,10 @@ namespace IPSUPC.Controllers.Medicos
         }
 
         [HttpPost("Create")]
-        public async Task<IActionResult> Create([FromForm] MedicoDTO medico)
+        public async Task<IActionResult> Create([FromForm] Medico medico)
         {
             var result = await _medicosBLL.CreateMedicosAsync(medico);
-            return new OkObjectResult(result);
+            return Ok(result);
         }
 
         [HttpPut("Update/{NumeroDocumento}")]

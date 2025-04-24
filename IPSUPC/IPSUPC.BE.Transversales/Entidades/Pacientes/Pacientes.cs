@@ -1,4 +1,7 @@
-﻿namespace IPSUPC.BE.Transversales.Entidades;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace IPSUPC.BE.Transversales.Entidades;
 
 public class Pacientes
 {
@@ -30,4 +33,7 @@ public class Pacientes
     public DateTime FechaRegistro { get; set; }
     public string Estado { get; set; }
     public string? ImagenUrl { get; set; }
+    
+    [NotMapped]
+    public IFormFile? ImagenFile { get; set; }
 }

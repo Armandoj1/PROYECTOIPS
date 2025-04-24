@@ -32,13 +32,16 @@ public class PacientesBLL : IPacientesBLL
         return _mapper.Map<IEnumerable<PacientesDTO>>(pacientes);
     }
 
-    public async Task<Pacientes> CreatePacientesAsync(PacientesDTO pacientesdto)
+    public async Task<Pacientes> CreatePacientesAsync(Pacientes pacientesdto)
     {
-        var pacientes = _mapper.Map<Pacientes>(pacientesdto);
-        if (pacientesdto.ImagenFile != null)
+        // No es necesario mapear si el objeto es el mismo tipo
+        var pacientes = pacientesdto;
+
+        if (pacientes?.ImagenFile != null)
         {
-            pacientes.ImagenUrl = await _cloudinaryService.SubirImagenAsync(pacientesdto.ImagenFile);
+            pacientes.ImagenUrl = await _cloudinaryService.SubirImagenAsync(pacientes.ImagenFile);
         }
+
         return await _pacientesDAL.CreatePacientesAsync(pacientes);
     }
 

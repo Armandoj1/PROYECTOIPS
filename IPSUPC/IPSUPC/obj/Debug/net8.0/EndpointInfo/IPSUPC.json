@@ -51,7 +51,8 @@
                 "type": "object",
                 "properties": {
                   "TipoDocumento": {
-                    "type": "string"
+                    "type": "integer",
+                    "format": "int32"
                   },
                   "NumeroDocumento": {
                     "type": "string"
@@ -93,10 +94,12 @@
                     "type": "string"
                   },
                   "Genero": {
-                    "type": "string"
+                    "type": "integer",
+                    "format": "int32"
                   },
                   "EstadoCivil": {
-                    "type": "string"
+                    "type": "integer",
+                    "format": "int32"
                   },
                   "FechaNacimiento": {
                     "type": "string"
@@ -331,19 +334,193 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/PacientesDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PacientesDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/PacientesDTO"
+                "type": "object",
+                "properties": {
+                  "NumeroDocumento": {
+                    "type": "string"
+                  },
+                  "TipoDocumento": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "PrimerNombre": {
+                    "type": "string"
+                  },
+                  "SegundoNombre": {
+                    "type": "string"
+                  },
+                  "PrimerApellido": {
+                    "type": "string"
+                  },
+                  "SegundoApellido": {
+                    "type": "string"
+                  },
+                  "CorreoElectronico": {
+                    "type": "string"
+                  },
+                  "Telefono": {
+                    "type": "string"
+                  },
+                  "Celular": {
+                    "type": "string"
+                  },
+                  "Direccion": {
+                    "type": "string"
+                  },
+                  "Ciudad": {
+                    "type": "string"
+                  },
+                  "Departamento": {
+                    "type": "string"
+                  },
+                  "Pais": {
+                    "type": "string"
+                  },
+                  "CodigoPostal": {
+                    "type": "string"
+                  },
+                  "Genero": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "EstadoCivil": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "FechaNacimiento": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "LugarNacimiento": {
+                    "type": "string"
+                  },
+                  "Nacionalidad": {
+                    "type": "string"
+                  },
+                  "GrupoSanguineo": {
+                    "type": "string"
+                  },
+                  "TieneAlergias": {
+                    "type": "boolean"
+                  },
+                  "Alergias": {
+                    "type": "string"
+                  },
+                  "Medicamentos": {
+                    "type": "string"
+                  },
+                  "EnfermedadesCronicas": {
+                    "type": "string"
+                  },
+                  "AntecedentesFamiliares": {
+                    "type": "string"
+                  },
+                  "FechaRegistro": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Estado": {
+                    "type": "string"
+                  },
+                  "ImagenUrl": {
+                    "type": "string"
+                  },
+                  "ImagenFile": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "NumeroDocumento": {
+                  "style": "form"
+                },
+                "TipoDocumento": {
+                  "style": "form"
+                },
+                "PrimerNombre": {
+                  "style": "form"
+                },
+                "SegundoNombre": {
+                  "style": "form"
+                },
+                "PrimerApellido": {
+                  "style": "form"
+                },
+                "SegundoApellido": {
+                  "style": "form"
+                },
+                "CorreoElectronico": {
+                  "style": "form"
+                },
+                "Telefono": {
+                  "style": "form"
+                },
+                "Celular": {
+                  "style": "form"
+                },
+                "Direccion": {
+                  "style": "form"
+                },
+                "Ciudad": {
+                  "style": "form"
+                },
+                "Departamento": {
+                  "style": "form"
+                },
+                "Pais": {
+                  "style": "form"
+                },
+                "CodigoPostal": {
+                  "style": "form"
+                },
+                "Genero": {
+                  "style": "form"
+                },
+                "EstadoCivil": {
+                  "style": "form"
+                },
+                "FechaNacimiento": {
+                  "style": "form"
+                },
+                "LugarNacimiento": {
+                  "style": "form"
+                },
+                "Nacionalidad": {
+                  "style": "form"
+                },
+                "GrupoSanguineo": {
+                  "style": "form"
+                },
+                "TieneAlergias": {
+                  "style": "form"
+                },
+                "Alergias": {
+                  "style": "form"
+                },
+                "Medicamentos": {
+                  "style": "form"
+                },
+                "EnfermedadesCronicas": {
+                  "style": "form"
+                },
+                "AntecedentesFamiliares": {
+                  "style": "form"
+                },
+                "FechaRegistro": {
+                  "style": "form"
+                },
+                "Estado": {
+                  "style": "form"
+                },
+                "ImagenUrl": {
+                  "style": "form"
+                },
+                "ImagenFile": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -810,6 +987,11 @@
           "imagenUrl": {
             "type": "string",
             "nullable": true
+          },
+          "imagenFile": {
+            "type": "string",
+            "format": "binary",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -880,124 +1062,6 @@
           "estadoCivil": {
             "type": "integer",
             "format": "int32"
-          },
-          "fechaNacimiento": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "lugarNacimiento": {
-            "type": "string",
-            "nullable": true
-          },
-          "nacionalidad": {
-            "type": "string",
-            "nullable": true
-          },
-          "grupoSanguineo": {
-            "type": "string",
-            "nullable": true
-          },
-          "tieneAlergias": {
-            "type": "boolean"
-          },
-          "alergias": {
-            "type": "string",
-            "nullable": true
-          },
-          "medicamentos": {
-            "type": "string",
-            "nullable": true
-          },
-          "enfermedadesCronicas": {
-            "type": "string",
-            "nullable": true
-          },
-          "antecedentesFamiliares": {
-            "type": "string",
-            "nullable": true
-          },
-          "fechaRegistro": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "estado": {
-            "type": "string",
-            "nullable": true
-          },
-          "imagenUrl": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "PacientesDTO": {
-        "type": "object",
-        "properties": {
-          "numeroDocumento": {
-            "type": "string",
-            "nullable": true
-          },
-          "tipoDocumento": {
-            "type": "string",
-            "nullable": true
-          },
-          "primerNombre": {
-            "type": "string",
-            "nullable": true
-          },
-          "segundoNombre": {
-            "type": "string",
-            "nullable": true
-          },
-          "primerApellido": {
-            "type": "string",
-            "nullable": true
-          },
-          "segundoApellido": {
-            "type": "string",
-            "nullable": true
-          },
-          "correoElectronico": {
-            "type": "string",
-            "nullable": true
-          },
-          "telefono": {
-            "type": "string",
-            "nullable": true
-          },
-          "celular": {
-            "type": "string",
-            "nullable": true
-          },
-          "direccion": {
-            "type": "string",
-            "nullable": true
-          },
-          "ciudad": {
-            "type": "string",
-            "nullable": true
-          },
-          "departamento": {
-            "type": "string",
-            "nullable": true
-          },
-          "pais": {
-            "type": "string",
-            "nullable": true
-          },
-          "codigoPostal": {
-            "type": "string",
-            "nullable": true
-          },
-          "genero": {
-            "type": "string",
-            "nullable": true
-          },
-          "estadoCivil": {
-            "type": "string",
-            "nullable": true
           },
           "fechaNacimiento": {
             "type": "string",
