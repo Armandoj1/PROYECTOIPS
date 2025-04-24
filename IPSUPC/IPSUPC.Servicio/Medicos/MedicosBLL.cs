@@ -2,6 +2,7 @@
 using IPSUPC.BE.Repositorio.Interface;
 using IPSUPC.BE.Servicio.Interface;
 using IPSUPC.BE.Transversales.Entidades;
+using IPSUPC.BE.Transversales.Image;
 
 namespace IPSUPC.BE.Servicio;
 
@@ -9,10 +10,12 @@ public class MedicosBLL : IMedicosBLL
 {
     private readonly IMedicosDAL _medicosDAL;
     private readonly IMapper _mapper;
-    public MedicosBLL(IMedicosDAL medicosDAL, IMapper mapper)
+    private readonly ICloudinaryService _cloudinaryService;
+    public MedicosBLL(IMedicosDAL medicosDAL, IMapper mapper, ICloudinaryService cloudinaryService)
     {
         _medicosDAL = medicosDAL;
         _mapper = mapper;
+        _cloudinaryService = cloudinaryService;
     }
     public async Task<IEnumerable<MedicoDTO>> GetMedicosAsync()
     {
@@ -26,10 +29,18 @@ public class MedicosBLL : IMedicosBLL
         return _mapper.Map<IEnumerable<MedicoDTO>>(medicos);
     }
 
-    public async Task<Medico> CreateMedicosAsync(Medico medicos)
+    public async Task<Medico> CreateMedicosAsync(MedicoDTO dto)
     {
-        return await _medicosDAL.CreateMedicosAsync(medicos);
+        var medico = _mapper.Map<Medico>(dto);
+
+        if (dto.ImagenFile != null)
+        {
+            medico.ImagenUrl = await _cloudinaryService.SubirImagenAsync(dto.ImagenFile);
+        }
+
+        return await _medicosDAL.CreateMedicosAsync(medico);
     }
+
     public async Task<Medico> UpdateMedicosAsync(Medico medicos)
     {
         return await _medicosDAL.UpdateMedicosAsync(medicos);

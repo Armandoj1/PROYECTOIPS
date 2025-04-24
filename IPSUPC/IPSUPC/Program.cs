@@ -10,6 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using System.Text.Json.Serialization;
+using IPSUPC.BE.Transversales.Image;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,8 +45,11 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<IPSUPCDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-
+//Inyeccióno de dependencias externas
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
+builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
+
 
 
 //Inyección de dependencias
@@ -55,7 +59,6 @@ builder.Services.AddScoped<IPacientesDAL, PacientesDAL>();
 builder.Services.AddScoped<IPacientesBLL, PacientesBLL>();
 builder.Services.AddScoped<IMedicosDAL, MedicosDAL>();
 builder.Services.AddScoped<IMedicosBLL, MedicosBLL>();
-
 
 
 // JWT
@@ -125,8 +128,6 @@ builder.Services.AddControllers();
 //        options.JsonSerializerOptions.Converters.Add(new JsonDateOnlyConverter());
 //    });
 
-
-
 var app = builder.Build();
 
 // Migraciones automáticas
@@ -138,10 +139,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-
-
-
 
 app.UseRouting();
 app.UseCors("CorsPolicy");

@@ -19,6 +19,11 @@ public static class DbConstants
         public const string TipoDocumento = nameof(TipoDocumento);
         public const string Pacientes = nameof(Pacientes);
         public const string EstadoCivil = nameof(EstadoCivil);
+        public const string HorasMedicas = nameof(HorasMedicas);
+        public const string CitasMedicas = nameof(CitasMedicas);
+        public const string Dia = nameof(Dia);
+        public const string EstadoCita = nameof(EstadoCita);
+        public const string TipoConsulta = nameof(TipoConsulta);
         public const string EFMigrationsHistory = $"_{nameof(EFMigrationsHistory)}_";
     }
 
@@ -34,6 +39,7 @@ public static class DbConstants
         public const int Usuario = 100;
         public const int NumeroIdentificacion = 15;
         public const int Descripcion = 300;
+        public const int Observacion = 500;
     }
 
     public static class ShadowProperties

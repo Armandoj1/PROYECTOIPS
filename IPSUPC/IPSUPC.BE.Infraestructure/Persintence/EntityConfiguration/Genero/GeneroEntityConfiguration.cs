@@ -21,6 +21,6 @@ public class GeneroEntityConfiguration : IEntityTypeConfiguration<Generos>
 
         builder
             .HasIndex(x => x.Code)
-            .IsUnique();
+            .IsUnique();        
     }
 }

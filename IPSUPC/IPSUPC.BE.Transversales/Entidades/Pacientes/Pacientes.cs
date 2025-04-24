@@ -29,4 +29,5 @@ public class Pacientes
     public string AntecedentesFamiliares { get; set; }
     public DateTime FechaRegistro { get; set; }
     public string Estado { get; set; }
+    public string? ImagenUrl { get; set; }
 }

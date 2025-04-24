@@ -1,4 +1,5 @@
-﻿namespace IPSUPC.BE.Transversales.Entidades;
+﻿using Microsoft.AspNetCore.Http;
+namespace IPSUPC.BE.Transversales.Entidades;
 
 public class PacientesDTO
 {
@@ -29,4 +30,6 @@ public class PacientesDTO
     public string AntecedentesFamiliares { get; set; }
     public DateTime FechaRegistro { get; set; }
     public string Estado { get; set; }
+    public string? ImagenUrl { get; set; }
+    public IFormFile? ImagenFile { get; set; }
 }

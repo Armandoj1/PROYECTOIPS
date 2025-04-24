@@ -3,6 +3,7 @@ using MediatR;
 using IPSUPC.BE.Infraestructure.Extensions;
 using IPSUPC.BE.Transversales.Entidades;
 using IPSUPC.BE.Transversales;
+using IPSUPC.BE.Transversales.Core;
 
 namespace IPSUPC.BE.Infraestructure.Persintence
 {
@@ -19,6 +20,10 @@ namespace IPSUPC.BE.Infraestructure.Persintence
         public DbSet<TipoDocumento> TipoDocumento { get; set; }
         public DbSet<Pacientes> Pacientes { get; set; }
         public DbSet<EstadoCivil> EstadoCivil { get; set; }
+        public DbSet<HorasMedicas> HorasMedicas { get; set; }
+        public DbSet<Dias> Dias { get; set; }
+        public DbSet<TipoConsulta> TipoConsultas { get; set; }
+        public DbSet<CitasMedicas> CitasMedicas { get; set; }
 
         #endregion
 
@@ -88,7 +93,7 @@ namespace IPSUPC.BE.Infraestructure.Persintence
                 }
             }
         }
-        
+
 
         private void HasSequences(ModelBuilder modelBuilder)
         {

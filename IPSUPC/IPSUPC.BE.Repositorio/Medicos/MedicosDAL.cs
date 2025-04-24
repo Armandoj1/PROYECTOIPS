@@ -15,7 +15,6 @@ public class MedicosDAL : IMedicosDAL
         _context = context;
     }
 
-
     public async Task<IEnumerable<Medico>> GetMedicosAsync()
     {
         return await _context.Set<Medico>().ToListAsync();

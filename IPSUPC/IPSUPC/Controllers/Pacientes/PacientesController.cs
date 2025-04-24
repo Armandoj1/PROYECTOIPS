@@ -31,7 +31,7 @@ namespace IPSUPC.Controllers
         }
 
         [HttpPost("Create")]
-        public async Task<IActionResult> Create([FromBody] Pacientes paciente)
+        public async Task<IActionResult> Create([FromBody] PacientesDTO paciente)
         {
             var result = await _pacienteBLL.CreatePacientesAsync(paciente);
             return new OkObjectResult(result);

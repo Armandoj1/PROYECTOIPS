@@ -139,5 +139,9 @@ public class PacientesEntityConfiguration : IEntityTypeConfiguration<Pacientes>
             .HasColumnName("Estado")
             .HasMaxLength(1)
             .IsRequired();
+
+        builder.Property(e => e.ImagenUrl)
+            .HasColumnName("ImagenUrl")
+            .HasMaxLength(200);
     }
 }

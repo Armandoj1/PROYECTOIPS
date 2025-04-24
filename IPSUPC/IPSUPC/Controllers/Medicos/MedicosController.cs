@@ -1,4 +1,6 @@
-﻿using IPSUPC.BE.Servicio.Interface;
+﻿using AutoMapper;
+using IPSUPC.BE.Infraestructure.Migrations;
+using IPSUPC.BE.Servicio.Interface;
 using IPSUPC.BE.Transversales.Entidades;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,7 +13,7 @@ namespace IPSUPC.Controllers.Medicos
     {
         private readonly IMedicosBLL _medicosBLL;
 
-        public MedicosController(IMedicosBLL medicosBLL)
+        public MedicosController(IMedicosBLL medicosBLL, IMapper mapper)
         {
             _medicosBLL = medicosBLL;
         }
@@ -31,7 +33,7 @@ namespace IPSUPC.Controllers.Medicos
         }
 
         [HttpPost("Create")]
-        public async Task<IActionResult> Create([FromBody] Medico medico)
+        public async Task<IActionResult> Create([FromForm] MedicoDTO medico)
         {
             var result = await _medicosBLL.CreateMedicosAsync(medico);
             return new OkObjectResult(result);

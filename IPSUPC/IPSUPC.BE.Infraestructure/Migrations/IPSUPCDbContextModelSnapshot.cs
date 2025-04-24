@@ -22,6 +22,118 @@ namespace IPSUPC.BE.Infraestructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("IPSUPC.BE.Transversales.Core.Dias", b =>
+                {
+                    b.Property<int>("DiaID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("DiaID");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DiaID"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(20)")
+                        .HasColumnName("Nombre");
+
+                    b.HasKey("DiaID");
+
+                    b.ToTable("Dias", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            DiaID = 1,
+                            Code = "LUNES"
+                        },
+                        new
+                        {
+                            DiaID = 2,
+                            Code = "MARTES"
+                        },
+                        new
+                        {
+                            DiaID = 3,
+                            Code = "MIÉRCOLES"
+                        },
+                        new
+                        {
+                            DiaID = 4,
+                            Code = "JUEVES"
+                        },
+                        new
+                        {
+                            DiaID = 5,
+                            Code = "VIERNES"
+                        },
+                        new
+                        {
+                            DiaID = 6,
+                            Code = "SÁBADO"
+                        },
+                        new
+                        {
+                            DiaID = 7,
+                            Code = "DOMINGO"
+                        });
+                });
+
+            modelBuilder.Entity("IPSUPC.BE.Transversales.Entidades.CitasMedicas", b =>
+                {
+                    b.Property<int>("CitaMedicaID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CitaMedicaID"));
+
+                    b.Property<int>("DiaID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EstadoCitaID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("FechaCita")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("HorasMedicasID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MedicoID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("Observaciones")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(500)");
+
+                    b.Property<string>("PacienteID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<int>("TipoConsultaID")
+                        .HasColumnType("int");
+
+                    b.HasKey("CitaMedicaID");
+
+                    b.HasIndex("DiaID");
+
+                    b.HasIndex("EstadoCitaID");
+
+                    b.HasIndex("HorasMedicasID");
+
+                    b.HasIndex("MedicoID");
+
+                    b.HasIndex("PacienteID");
+
+                    b.HasIndex("TipoConsultaID");
+
+                    b.ToTable("CitasMedicas", (string)null);
+                });
+
             modelBuilder.Entity("IPSUPC.BE.Transversales.Entidades.Genero", b =>
                 {
                     b.Property<int>("Id")
@@ -285,6 +397,11 @@ namespace IPSUPC.BE.Infraestructure.Migrations
                         .HasColumnType("nvarchar(3)")
                         .HasColumnName("GrupoSanguineo");
 
+                    b.Property<string>("ImagenUrl")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)")
+                        .HasColumnName("ImagenUrl");
+
                     b.Property<string>("LugarNacimiento")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -422,6 +539,52 @@ namespace IPSUPC.BE.Infraestructure.Migrations
                     b.ToTable("Usuario", (string)null);
                 });
 
+            modelBuilder.Entity("IPSUPC.BE.Transversales.EstadoCita", b =>
+                {
+                    b.Property<int>("EstadoCitaID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EstadoCitaID"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("Code");
+
+                    b.HasKey("EstadoCitaID");
+
+                    b.ToTable("EstadoCita", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            EstadoCitaID = 1,
+                            Code = "PENDIENTE"
+                        },
+                        new
+                        {
+                            EstadoCitaID = 3,
+                            Code = "EN CURSO"
+                        },
+                        new
+                        {
+                            EstadoCitaID = 2,
+                            Code = "COMPLETADA"
+                        },
+                        new
+                        {
+                            EstadoCitaID = 4,
+                            Code = "CANCELADA"
+                        },
+                        new
+                        {
+                            EstadoCitaID = 5,
+                            Code = "NO ASISTIO"
+                        });
+                });
+
             modelBuilder.Entity("IPSUPC.BE.Transversales.EstadoCivil", b =>
                 {
                     b.Property<int>("Id")
@@ -464,6 +627,154 @@ namespace IPSUPC.BE.Infraestructure.Migrations
                     b.ToTable("Generos", "dbo");
                 });
 
+            modelBuilder.Entity("IPSUPC.BE.Transversales.HorasMedicas", b =>
+                {
+                    b.Property<int>("HoraMedicaID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("HoraMedicaID"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasKey("HoraMedicaID");
+
+                    b.HasIndex("Code")
+                        .IsUnique();
+
+                    b.ToTable("HorasMedicas", "dbo");
+
+                    b.HasData(
+                        new
+                        {
+                            HoraMedicaID = 1,
+                            Code = "6:00 AM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 2,
+                            Code = "6:30 AM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 3,
+                            Code = "7:00 AM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 4,
+                            Code = "7:30 AM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 5,
+                            Code = "8:00 AM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 6,
+                            Code = "8:30 AM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 7,
+                            Code = "9:00 AM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 8,
+                            Code = "9:30 AM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 9,
+                            Code = "10:00 AM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 10,
+                            Code = "10:30 AM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 11,
+                            Code = "11:00 AM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 12,
+                            Code = "11:30 AM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 13,
+                            Code = "12:00 PM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 14,
+                            Code = "12:30 PM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 15,
+                            Code = "1:00 PM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 16,
+                            Code = "1:30 PM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 17,
+                            Code = "2:00 PM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 18,
+                            Code = "2:30 PM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 19,
+                            Code = "3:00 PM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 20,
+                            Code = "3:30 PM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 21,
+                            Code = "4:00 PM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 22,
+                            Code = "4:30 PM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 23,
+                            Code = "5:00 PM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 24,
+                            Code = "5:30 PM"
+                        },
+                        new
+                        {
+                            HoraMedicaID = 25,
+                            Code = "6:00 PM"
+                        });
+                });
+
             modelBuilder.Entity("IPSUPC.BE.Transversales.Rol", b =>
                 {
                     b.Property<int>("Id")
@@ -499,6 +810,48 @@ namespace IPSUPC.BE.Infraestructure.Migrations
                         });
                 });
 
+            modelBuilder.Entity("IPSUPC.BE.Transversales.TipoConsulta", b =>
+                {
+                    b.Property<int>("TipoConsultaID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("TipoConsultaID");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TipoConsultaID"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("Code");
+
+                    b.HasKey("TipoConsultaID");
+
+                    b.ToTable("TipoConsulta", "dbo");
+
+                    b.HasData(
+                        new
+                        {
+                            TipoConsultaID = 1,
+                            Code = "ENFERMERÍA"
+                        },
+                        new
+                        {
+                            TipoConsultaID = 2,
+                            Code = "PSICOLOGÍA"
+                        },
+                        new
+                        {
+                            TipoConsultaID = 3,
+                            Code = "MEDICINA GENERAL"
+                        },
+                        new
+                        {
+                            TipoConsultaID = 4,
+                            Code = "ODONTOLOGÍA"
+                        });
+                });
+
             modelBuilder.Entity("IPSUPC.BE.Transversales.TipoDocumento", b =>
                 {
                     b.Property<int>("Id")
@@ -518,6 +871,45 @@ namespace IPSUPC.BE.Infraestructure.Migrations
                         .IsUnique();
 
                     b.ToTable("TipoDocumento", "dbo");
+                });
+
+            modelBuilder.Entity("IPSUPC.BE.Transversales.Entidades.CitasMedicas", b =>
+                {
+                    b.HasOne("IPSUPC.BE.Transversales.Core.Dias", null)
+                        .WithMany()
+                        .HasForeignKey("DiaID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("IPSUPC.BE.Transversales.EstadoCita", null)
+                        .WithMany()
+                        .HasForeignKey("EstadoCitaID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("IPSUPC.BE.Transversales.HorasMedicas", null)
+                        .WithMany()
+                        .HasForeignKey("HorasMedicasID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("IPSUPC.BE.Transversales.Entidades.Medico", null)
+                        .WithMany()
+                        .HasForeignKey("MedicoID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("IPSUPC.BE.Transversales.Entidades.Pacientes", null)
+                        .WithMany()
+                        .HasForeignKey("PacienteID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("IPSUPC.BE.Transversales.TipoConsulta", null)
+                        .WithMany()
+                        .HasForeignKey("TipoConsultaID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("IPSUPC.BE.Transversales.Entidades.Medico", b =>

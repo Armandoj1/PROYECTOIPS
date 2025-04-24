@@ -8,9 +8,139 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "medico",
-        "Type": "IPSUPC.BE.Transversales.Entidades.Medico",
-        "IsRequired": true
+        "Name": "TipoDocumento",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumeroDocumento",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrimerNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SegundoNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrimerApellido",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SegundoApellido",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CorreoElectronico",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Telefono",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Celular",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Direccion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ciudad",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Departamento",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Pais",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodigoPostal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Genero",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoCivil",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaNacimiento",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LugarNacimiento",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nacionalidad",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MatriculaProfesional",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Universidad",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AnioGraduacion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaIngreso",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaSalida",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Estado",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImagenUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImagenFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -88,7 +218,7 @@
     "Parameters": [
       {
         "Name": "paciente",
-        "Type": "IPSUPC.BE.Transversales.Entidades.Pacientes",
+        "Type": "IPSUPC.BE.Transversales.Entidades.PacientesDTO",
         "IsRequired": true
       }
     ],
