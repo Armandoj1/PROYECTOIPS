@@ -1,5 +1,6 @@
 ﻿using IPSUPC.BE.Infraestructure.Persintence;
 using IPSUPC.BE.Repositorio.Interface;
+using IPSUPC.BE.Transversales.Core;
 using IPSUPC.BE.Transversales.Entidades;
 using Microsoft.EntityFrameworkCore;
 
@@ -46,12 +47,34 @@ public class CitasMedicasDAL : ICitasMedicasDAL
             .FirstOrDefaultAsync(c => c.CitaMedicaID == id);
     }
 
-    public async Task<CitasMedicas> CreateCita(CitasMedicas citasMedicas)
+    public async Task<CitasMedicas> CreateCita(CitasMedicas cita)
     {
-        await _context.Set<CitasMedicas>().AddAsync(citasMedicas);
+        var diaDeLaSemana = Dias.GetByDayOfWeek(cita.FechaCita.DayOfWeek);
+        cita.DiaID = diaDeLaSemana.DiaID;
+        var horaDisponible = await _context.HorasMedicas
+            .AnyAsync(h => h.HoraMedicaID == cita.HorasMedicasID);
+
+        if (!horaDisponible)
+        {
+            throw new InvalidOperationException("La hora seleccionada no es válida.");
+        }
+
+        bool existeCita = await _context.CitasMedicas
+            .AnyAsync(c =>
+                c.MedicoID == cita.MedicoID &&
+                c.FechaCita == cita.FechaCita);
+
+        if (existeCita)
+        {
+            throw new InvalidOperationException("Ya existe una cita médica en la misma fecha y hora.");
+        }
+
+        await _context.Set<CitasMedicas>().AddAsync(cita);
         await _context.SaveChangesAsync();
-        return citasMedicas;
+
+        return cita; 
     }
+
 
     public async Task<CitasMedicas> UpdateCita(CitasMedicas citasMedicas)
     {
@@ -74,6 +97,5 @@ public class CitasMedicasDAL : ICitasMedicasDAL
         _context.Entry(Citas).Property(h => h.EstadoCitaID).IsModified = true;
         await _context.SaveChangesAsync();
     }
-
 
 }

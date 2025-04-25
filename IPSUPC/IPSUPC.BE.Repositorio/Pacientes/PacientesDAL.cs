@@ -33,6 +33,16 @@ public class PacientesDAL : IPacientesDAL
         return pacientes;
     }
 
+    public async Task<Pacientes> CambiarFotoPerfil(string id, string url)
+    {
+        var paciente = await _context.Set<Pacientes>().FindAsync(id);
+        if (paciente == null)
+            throw new Exception("Paciente no encontrado");
+        paciente.ImagenUrl = url;
+        await _context.SaveChangesAsync();
+        return paciente;
+    }
+
     public async Task<Pacientes> UpdatePacientesAsync(Pacientes pacientes)
     {
         var existingPacientes = await _context.Set<Pacientes>().FindAsync(pacientes.NumeroDocumento);

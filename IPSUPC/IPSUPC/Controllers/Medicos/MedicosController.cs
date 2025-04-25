@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using IPSUPC.BE.Infraestructure.Migrations;
+using IPSUPC.BE.Servicio;
 using IPSUPC.BE.Servicio.Interface;
 using IPSUPC.BE.Transversales.Entidades;
+using IPSUPC.BE.Transversales.Image;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IPSUPC.Controllers.Medicos
@@ -12,10 +14,12 @@ namespace IPSUPC.Controllers.Medicos
     public class MedicosController : ControllerBase
     {
         private readonly IMedicosBLL _medicosBLL;
+        private readonly ICloudinaryService _cloudinaryService;
 
-        public MedicosController(IMedicosBLL medicosBLL, IMapper mapper)
+        public MedicosController(IMedicosBLL medicosBLL, IMapper mapper, ICloudinaryService cloudinaryService)
         {
             _medicosBLL = medicosBLL;
+            _cloudinaryService = cloudinaryService;
         }
 
         [HttpGet("GetAll")]
@@ -53,7 +57,20 @@ namespace IPSUPC.Controllers.Medicos
             return new OkObjectResult(result);
         }
 
+        [HttpPatch("CambiarFotoPerfil")]
+        public async Task<IActionResult> CambiarFotoPerfil(string id, [FromForm] CambioFotoPerfil fotoPerfil)
+        {
+            if (fotoPerfil.ImagenUrl == null)
+                return BadRequest("No se recibió ninguna imagen.");
 
+            var imagenUrl = await _cloudinaryService.SubirImagenAsync(fotoPerfil.ImagenUrl);
+
+            var medicoActualizado = await _medicosBLL.CambiarFotoPerfil(id, imagenUrl);
+            if (medicoActualizado == null)
+                return NotFound("Médico no encontrado.");
+
+            return Ok(medicoActualizado);
+        }
 
     }
 }

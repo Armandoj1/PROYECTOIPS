@@ -8,4 +8,5 @@ public interface IPacientesBLL
     Task<Pacientes> CreatePacientesAsync(Pacientes pacientes);
     Task<Pacientes> UpdatePacientesAsync(Pacientes pacientes);
     Task<Pacientes> DeletePacientesAsync(string id);
+    Task<Pacientes> CambiarFotoPerfil(string id, string url);
 }

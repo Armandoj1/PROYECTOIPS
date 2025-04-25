@@ -10,4 +10,5 @@ public interface IMedicosBLL
     Task<Medico> CreateMedicosAsync(Medico medicos);
     Task<Medico> UpdateMedicosAsync(Medico medicos);
     Task<Medico> DeleteMedicosAsync(string id);
+    Task<Medico> CambiarFotoPerfil(string id, string url);
 }

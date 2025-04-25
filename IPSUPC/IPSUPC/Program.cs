@@ -59,7 +59,8 @@ builder.Services.AddScoped<IPacientesDAL, PacientesDAL>();
 builder.Services.AddScoped<IPacientesBLL, PacientesBLL>();
 builder.Services.AddScoped<IMedicosDAL, MedicosDAL>();
 builder.Services.AddScoped<IMedicosBLL, MedicosBLL>();
-
+builder.Services.AddScoped<ICitasMedicasDAL, CitasMedicasDAL>();
+builder.Services.AddScoped<ICitasMedicasBLL, CitasMedicasBLL>();
 
 // JWT
 var jwtSettings = builder.Configuration.GetSection("Jwt");

@@ -34,6 +34,17 @@ public class MedicosDAL : IMedicosDAL
         return medicos;
     }
 
+    public async Task<Medico> CambiarFotoPerfil(string id, string url)
+    {
+        var Medicos = await _context.Medico.FindAsync(id);
+        if (Medicos != null)
+        {
+            Medicos.ImagenUrl = url;
+            await _context.SaveChangesAsync();
+        }
+        return Medicos;
+    }
+
     public async Task<Medico> UpdateMedicosAsync(Medico medicos)
     {
         var existingMedicos = await _context.Set<Medico>().FindAsync(medicos.NumeroDocumento);

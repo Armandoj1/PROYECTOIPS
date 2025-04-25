@@ -1,5 +1,158 @@
 [
   {
+    "ContainingType": "IPSUPC.Controllers.CitasMedicasController",
+    "Method": "Create",
+    "RelativePath": "api/CitasMedicas/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cita",
+        "Type": "IPSUPC.BE.Transversales.Entidades.CitasMedicas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.CitasMedicasController",
+    "Method": "GetAll",
+    "RelativePath": "api/CitasMedicas/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.CitasMedicasController",
+    "Method": "GetCitaById",
+    "RelativePath": "api/CitasMedicas/GetCitaById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.CitasMedicasController",
+    "Method": "GetCitasMedico",
+    "RelativePath": "api/CitasMedicas/GetCitasMedico/{MedicoID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MedicoID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.CitasMedicasController",
+    "Method": "GetCitasPaciente",
+    "RelativePath": "api/CitasMedicas/GetCitasPaciente/{PacienteID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PacienteID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.CitasMedicasController",
+    "Method": "GetCitasTipoConsulta",
+    "RelativePath": "api/CitasMedicas/GetCitasTipoConsulta/{TipoConsulta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TipoConsulta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.CitasMedicasController",
+    "Method": "Update",
+    "RelativePath": "api/CitasMedicas/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cita",
+        "Type": "IPSUPC.BE.Transversales.Entidades.CitasMedicas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.CitasMedicasController",
+    "Method": "UpdateEstadoCitaId",
+    "RelativePath": "api/CitasMedicas/UpdateEstadoCitaId/{id}/{EstadoCitaID}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "EstadoCitaID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.Medicos.MedicosController",
+    "Method": "CambiarFotoPerfil",
+    "RelativePath": "api/Medicos/CambiarFotoPerfil",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImagenUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "IPSUPC.Controllers.Medicos.MedicosController",
     "Method": "Create",
     "RelativePath": "api/Medicos/Create",
@@ -204,6 +357,32 @@
         "Name": "NumeroDocumento",
         "Type": "",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IPSUPC.Controllers.PacientesController",
+    "Method": "CambiarFotoPerfil",
+    "RelativePath": "api/Pacientes/CambiarFotoPerfil",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImagenUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
-using IPSUPC.BE.Repositorio;
 using IPSUPC.BE.Repositorio.Interface;
 using IPSUPC.BE.Servicio.Interface;
 using IPSUPC.BE.Transversales.Entidades;
 using IPSUPC.BE.Transversales.Image;
-
 namespace IPSUPC.BE.Servicio;
 
 public class PacientesBLL : IPacientesBLL
@@ -34,7 +32,6 @@ public class PacientesBLL : IPacientesBLL
 
     public async Task<Pacientes> CreatePacientesAsync(Pacientes pacientesdto)
     {
-        // No es necesario mapear si el objeto es el mismo tipo
         var pacientes = pacientesdto;
 
         if (pacientes?.ImagenFile != null)
@@ -43,6 +40,11 @@ public class PacientesBLL : IPacientesBLL
         }
 
         return await _pacientesDAL.CreatePacientesAsync(pacientes);
+    }
+
+    public async Task<Pacientes> CambiarFotoPerfil(string id, string url)
+    {
+        return await _pacientesDAL.CambiarFotoPerfil(id, url);
     }
 
     public async Task<Pacientes> UpdatePacientesAsync(Pacientes pacientes)

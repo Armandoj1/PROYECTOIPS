@@ -3,6 +3,7 @@ using IPSUPC.BE.Servicio.Interface;
 using IPSUPC.BE.Transversales.Entidades;
 using IPSUPC.BE.Servicio;
 using AutoMapper;
+using IPSUPC.BE.Transversales.Image;
 
 namespace IPSUPC.Controllers
 {
@@ -13,11 +14,13 @@ namespace IPSUPC.Controllers
 
         private readonly IPacientesBLL _pacienteBLL;
         private readonly IMapper _mapper;
+        private readonly ICloudinaryService _cloudinaryService;
 
-        public PacientesController(IPacientesBLL pacienteBLL, IMapper mapper)
+        public PacientesController(IPacientesBLL pacienteBLL, IMapper mapper, ICloudinaryService cloudinaryService)
         {
             _pacienteBLL = pacienteBLL;
             _mapper = mapper;
+            _cloudinaryService = cloudinaryService;
         }
 
         [HttpGet("GetAll")]
@@ -41,7 +44,6 @@ namespace IPSUPC.Controllers
             return Ok(result);
         }
 
-
         [HttpPut("Update/{NumeroDocumento}")]
         public async Task<IActionResult> Update([FromBody] Pacientes paciente)
         {
@@ -55,6 +57,22 @@ namespace IPSUPC.Controllers
             var result = await _pacienteBLL.DeletePacientesAsync(NumeroIdentificacion);
             return new OkObjectResult(result);
         }
+
+        [HttpPatch("CambiarFotoPerfil")]
+        public async Task<IActionResult> CambiarFotoPerfil(string id, [FromForm] CambioFotoPerfil imagenForm)
+        {
+            if (imagenForm.ImagenUrl == null)
+                return BadRequest("No se recibió ninguna imagen.");
+
+            var imagenUrl = await _cloudinaryService.SubirImagenAsync(imagenForm.ImagenUrl);
+
+            var pacienteActualizado = await _pacienteBLL.CambiarFotoPerfil(id, imagenUrl);
+            if (pacienteActualizado == null)
+                return NotFound("Paciente no encontrado.");
+
+            return Ok(pacienteActualizado);
+        }
+
 
     }
 }

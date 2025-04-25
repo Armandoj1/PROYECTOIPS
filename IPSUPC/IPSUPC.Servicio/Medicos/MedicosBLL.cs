@@ -39,6 +39,11 @@ public class MedicosBLL : IMedicosBLL
         return await _medicosDAL.CreateMedicosAsync(medico);
     }
 
+    public async Task<Medico> CambiarFotoPerfil(string id, string url)
+    {
+        return await _medicosDAL.CambiarFotoPerfil(id, url);
+    }
+
     public async Task<Medico> UpdateMedicosAsync(Medico medicos)
     {
         return await _medicosDAL.UpdateMedicosAsync(medicos);

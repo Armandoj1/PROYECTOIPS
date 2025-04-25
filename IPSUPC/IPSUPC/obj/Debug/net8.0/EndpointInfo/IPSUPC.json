@@ -5,6 +5,202 @@
     "version": "v1"
   },
   "paths": {
+    "/api/CitasMedicas/GetAll": {
+      "get": {
+        "tags": [
+          "CitasMedicas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CitasMedicas/GetCitasMedico/{MedicoID}": {
+      "get": {
+        "tags": [
+          "CitasMedicas"
+        ],
+        "parameters": [
+          {
+            "name": "MedicoID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CitasMedicas/GetCitasPaciente/{PacienteID}": {
+      "get": {
+        "tags": [
+          "CitasMedicas"
+        ],
+        "parameters": [
+          {
+            "name": "PacienteID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CitasMedicas/GetCitasTipoConsulta/{TipoConsulta}": {
+      "get": {
+        "tags": [
+          "CitasMedicas"
+        ],
+        "parameters": [
+          {
+            "name": "TipoConsulta",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CitasMedicas/GetCitaById/{id}": {
+      "get": {
+        "tags": [
+          "CitasMedicas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CitasMedicas/Create": {
+      "post": {
+        "tags": [
+          "CitasMedicas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CitasMedicas"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CitasMedicas"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CitasMedicas"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CitasMedicas/Update": {
+      "put": {
+        "tags": [
+          "CitasMedicas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CitasMedicas"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CitasMedicas"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CitasMedicas"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CitasMedicas/UpdateEstadoCitaId/{id}/{EstadoCitaID}": {
+      "patch": {
+        "tags": [
+          "CitasMedicas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "EstadoCitaID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Medicos/GetAll": {
       "get": {
         "tags": [
@@ -286,6 +482,53 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Medicos/CambiarFotoPerfil": {
+      "patch": {
+        "tags": [
+          "Medicos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ImagenUrl": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Id": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "ImagenUrl": {
+                  "style": "form"
+                },
+                "Id": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -594,6 +837,53 @@
         }
       }
     },
+    "/api/Pacientes/CambiarFotoPerfil": {
+      "patch": {
+        "tags": [
+          "Pacientes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ImagenUrl": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Id": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "ImagenUrl": {
+                  "style": "form"
+                },
+                "Id": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Usuario/GetAll": {
       "get": {
         "tags": [
@@ -858,6 +1148,44 @@
             "nullable": true
           },
           "nuevaPassword": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CitasMedicas": {
+        "type": "object",
+        "properties": {
+          "citaMedicaID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pacienteID": {
+            "type": "string",
+            "nullable": true
+          },
+          "medicoID": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipoConsultaID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "horasMedicasID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "estadoCitaID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fechaCita": {
+            "type": "string",
+            "format": "date"
+          },
+          "observaciones": {
             "type": "string",
             "nullable": true
           }
