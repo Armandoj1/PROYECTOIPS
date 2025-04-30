@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc\\controllers\\pacientes\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|solutionrelative:ipsupc\\controllers\\pacientes\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0028C2-9877-4562-BB8F-271F83E9BA2A}|IPSUPC.Servicio\\IPSUPC.BE.Servicio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.servicio\\pacientes\\pacientesbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0028C2-9877-4562-BB8F-271F83E9BA2A}|IPSUPC.Servicio\\IPSUPC.BE.Servicio.csproj|solutionrelative:ipsupc.servicio\\pacientes\\pacientesbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379B8CAF-8B61-4128-BD85-D52B3B8A9A59}|IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.repositorio\\pacientes\\pacientesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379B8CAF-8B61-4128-BD85-D52B3B8A9A59}|IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj|solutionrelative:ipsupc.be.repositorio\\pacientes\\pacientesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\core\\estadocivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|solutionrelative:ipsupc.be.transversales\\core\\estadocivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\core\\generos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|solutionrelative:ipsupc.be.transversales\\core\\generos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\persintence\\ipsupcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\persintence\\ipsupcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\extensions\\ihostextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\extensions\\ihostextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\entidades\\citasmedicas\\citasmedicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|solutionrelative:ipsupc.be.transversales\\entidades\\citasmedicas\\citasmedicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc\\controllers\\citasmedicas\\citasmedicascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|solutionrelative:ipsupc\\controllers\\citasmedicas\\citasmedicascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\persintence\\entityconfiguration\\citasmedicas\\citasmedicasentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\persintence\\entityconfiguration\\citasmedicas\\citasmedicasentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0028C2-9877-4562-BB8F-271F83E9BA2A}|IPSUPC.Servicio\\IPSUPC.BE.Servicio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.servicio\\citasmedicas\\citasmedicasbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0028C2-9877-4562-BB8F-271F83E9BA2A}|IPSUPC.Servicio\\IPSUPC.BE.Servicio.csproj|solutionrelative:ipsupc.servicio\\citasmedicas\\citasmedicasbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\entidades\\citasmedicas\\dto\u0027s\\citasmedicasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +59,8 @@
       "RelativeMoniker": "D:0:0:{379B8CAF-8B61-4128-BD85-D52B3B8A9A59}|IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj|solutionrelative:ipsupc.be.repositorio\\citasmedicas\\citasmedicasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C0028C2-9877-4562-BB8F-271F83E9BA2A}|IPSUPC.Servicio\\IPSUPC.BE.Servicio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.servicio\\citasmedicas\\citasmedicasbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C0028C2-9877-4562-BB8F-271F83E9BA2A}|IPSUPC.Servicio\\IPSUPC.BE.Servicio.csproj|solutionrelative:ipsupc.servicio\\citasmedicas\\citasmedicasbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc\\controllers\\medicos\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|solutionrelative:ipsupc\\controllers\\medicos\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc\\controllers\\pacientes\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|solutionrelative:ipsupc\\controllers\\pacientes\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\entidades\\customuser\\cambiofotoperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{379B8CAF-8B61-4128-BD85-D52B3B8A9A59}|IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj|solutionrelative:ipsupc.be.repositorio\\medicos\\medicosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc\\controllers\\citasmedicas\\citasmedicascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|solutionrelative:ipsupc\\controllers\\citasmedicas\\citasmedicascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc\\ipsupc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|solutionrelative:ipsupc\\ipsupc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -75,24 +103,12 @@
       "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\ipsupc.be.infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\extensions\\ihostextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\extensions\\ihostextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\ipsupc.be.transversales.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|solutionrelative:ipsupc.be.transversales\\ipsupc.be.transversales.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\persintence\\ipsupcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\persintence\\ipsupcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\image\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|solutionrelative:ipsupc.be.transversales\\image\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C0028C2-9877-4562-BB8F-271F83E9BA2A}|IPSUPC.Servicio\\IPSUPC.BE.Servicio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.servicio\\pacientes\\pacientesbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C0028C2-9877-4562-BB8F-271F83E9BA2A}|IPSUPC.Servicio\\IPSUPC.BE.Servicio.csproj|solutionrelative:ipsupc.servicio\\pacientes\\pacientesbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\mapeos\\medicos\\medicosprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{09EBD325-65B9-4966-B4BF-BDB5FF5413F4}|IPSUPC.BE.Servicio.Interface\\IPSUPC.BE.Servicio.Interface.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.servicio.interface\\pacientes\\ipacientesbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09EBD325-65B9-4966-B4BF-BDB5FF5413F4}|IPSUPC.BE.Servicio.Interface\\IPSUPC.BE.Servicio.Interface.csproj|solutionrelative:ipsupc.be.servicio.interface\\pacientes\\ipacientesbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379B8CAF-8B61-4128-BD85-D52B3B8A9A59}|IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.repositorio\\pacientes\\pacientesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{379B8CAF-8B61-4128-BD85-D52B3B8A9A59}|IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj|solutionrelative:ipsupc.be.repositorio\\pacientes\\pacientesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BD0DD5F-8A42-4071-B67A-46760F20B191}|IPSUPC.BE.Repositorio.Interface\\IPSUPC.BE.Repositorio.Interface.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.repositorio.interface\\pacientes\\ipacientesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,10 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\entidades\\pacientes\\dto\u0027s\\pacientesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|solutionrelative:ipsupc.be.transversales\\entidades\\pacientes\\dto\u0027s\\pacientesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\persintence\\entityconfiguration\\citasmedicas\\citasmedicasentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\persintence\\entityconfiguration\\citasmedicas\\citasmedicasentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\persintence\\entityconfiguration\\horasmedicas\\horasmedicasentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -246,20 +254,12 @@
       "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\migrations\\20250408024730_multiplestablas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\core\\generos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|solutionrelative:ipsupc.be.transversales\\core\\generos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.infraestructure\\persintence\\seeddata\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{999DC4AB-AFAB-4B9E-9170-FC87B20BF462}|IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj|solutionrelative:ipsupc.be.infraestructure\\persintence\\seeddata\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\core\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|solutionrelative:ipsupc.be.transversales\\core\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\core\\estadocivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|solutionrelative:ipsupc.be.transversales\\core\\estadocivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33D4083A-0BC9-47BD-A305-49152C9A0A50}|IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.transversales\\common\\iauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -397,7 +397,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -437,85 +437,110 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MedicosController.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\Medicos\\MedicosController.cs",
-              "RelativeDocumentMoniker": "IPSUPC\\Controllers\\Medicos\\MedicosController.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\Medicos\\MedicosController.cs",
-              "RelativeToolTip": "IPSUPC\\Controllers\\Medicos\\MedicosController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAUwCsAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Generos.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\Generos.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\Generos.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\Generos.cs",
+              "RelativeToolTip": "IPSUPC.BE.Transversales\\Core\\Generos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:17:07.046Z",
+              "WhenOpened": "2025-04-08T01:16:04.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "EstadoCivil.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\EstadoCivil.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\EstadoCivil.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\EstadoCivil.cs",
+              "RelativeToolTip": "IPSUPC.BE.Transversales\\Core\\EstadoCivil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T01:27:50.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PacientesDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Pacientes\\PacientesDAL.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio\\Pacientes\\PacientesDAL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Pacientes\\PacientesDAL.cs",
+              "RelativeToolTip": "IPSUPC.BE.Repositorio\\Pacientes\\PacientesDAL.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAtwC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T01:50:04.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PacientesBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Pacientes\\PacientesBLL.cs",
+              "RelativeDocumentMoniker": "IPSUPC.Servicio\\Pacientes\\PacientesBLL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Pacientes\\PacientesBLL.cs",
+              "RelativeToolTip": "IPSUPC.Servicio\\Pacientes\\PacientesBLL.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAtwDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T02:13:07.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "PacientesController.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\Pacientes\\PacientesController.cs",
               "RelativeDocumentMoniker": "IPSUPC\\Controllers\\Pacientes\\PacientesController.cs",
               "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\Pacientes\\PacientesController.cs",
               "RelativeToolTip": "IPSUPC\\Controllers\\Pacientes\\PacientesController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwDwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAtwDEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T02:28:18.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CitasMedicas.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\CitasMedicas.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\CitasMedicas.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\CitasMedicas.cs",
-              "RelativeToolTip": "IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\CitasMedicas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IPSUPCDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
+              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA1wGUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T04:20:19.718Z",
+              "WhenOpened": "2025-04-04T01:13:04.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CitasMedicasBLL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\CitasMedicas\\CitasMedicasBLL.cs",
-              "RelativeDocumentMoniker": "IPSUPC.Servicio\\CitasMedicas\\CitasMedicasBLL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\CitasMedicas\\CitasMedicasBLL.cs",
-              "RelativeToolTip": "IPSUPC.Servicio\\CitasMedicas\\CitasMedicasBLL.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAzwAcAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IHostExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
+              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T14:35:59.42Z",
+              "WhenOpened": "2025-04-04T01:07:56.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CitasMedicasDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\CitasMedicas\\CitasMedicasDAL.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio\\CitasMedicas\\CitasMedicasDAL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\CitasMedicas\\CitasMedicasDAL.cs",
-              "RelativeToolTip": "IPSUPC.BE.Repositorio\\CitasMedicas\\CitasMedicasDAL.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAYwDQAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "CitasMedicasEntityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\CitasMedicas\\CitasMedicasEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\CitasMedicas\\CitasMedicasEntityConfiguration.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\CitasMedicas\\CitasMedicasEntityConfiguration.cs",
+              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\CitasMedicas\\CitasMedicasEntityConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T05:17:38.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T04:23:33.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CitasMedicasProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Mapeos\\CitasMedicas\\CitasMedicasProfile.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Mapeos\\CitasMedicas\\CitasMedicasProfile.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Mapeos\\CitasMedicas\\CitasMedicasProfile.cs",
-              "RelativeToolTip": "IPSUPC.BE.Transversales\\Mapeos\\CitasMedicas\\CitasMedicasProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T20:06:02.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "CitasMedicasDTO.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\DTO\u0027s\\CitasMedicasDTO.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\DTO\u0027s\\CitasMedicasDTO.cs",
@@ -523,140 +548,11 @@
               "RelativeToolTip": "IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\DTO\u0027s\\CitasMedicasDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T04:53:25.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T04:53:25.954Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "MedicosBLL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Medicos\\MedicosBLL.cs",
-              "RelativeDocumentMoniker": "IPSUPC.Servicio\\Medicos\\MedicosBLL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Medicos\\MedicosBLL.cs",
-              "RelativeToolTip": "IPSUPC.Servicio\\Medicos\\MedicosBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:14:05.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IMedicosBLL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\Medicos\\IMedicosBLL.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Servicio.Interface\\Medicos\\IMedicosBLL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\Medicos\\IMedicosBLL.cs",
-              "RelativeToolTip": "IPSUPC.BE.Servicio.Interface\\Medicos\\IMedicosBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:15:23.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IMedicosDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
-              "RelativeToolTip": "IPSUPC.BE.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:10:07.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ICitasMedicasBLL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\CitasMedicas\\ICitasMedicasBLL.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Servicio.Interface\\CitasMedicas\\ICitasMedicasBLL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\CitasMedicas\\ICitasMedicasBLL.cs",
-              "RelativeToolTip": "IPSUPC.BE.Servicio.Interface\\CitasMedicas\\ICitasMedicasBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T14:32:08.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CambioFotoPerfil.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CustomUser\\CambioFotoPerfil.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\CustomUser\\CambioFotoPerfil.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CustomUser\\CambioFotoPerfil.cs",
-              "RelativeToolTip": "IPSUPC.BE.Transversales\\Entidades\\CustomUser\\CambioFotoPerfil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T02:33:14.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ICitasMedicasDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\CitasMedicas\\ICitasMedicasDAL.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio.Interface\\CitasMedicas\\ICitasMedicasDAL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\CitasMedicas\\ICitasMedicasDAL.cs",
-              "RelativeToolTip": "IPSUPC.BE.Repositorio.Interface\\CitasMedicas\\ICitasMedicasDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T05:15:53.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
-              "RelativeDocumentMoniker": "IPSUPC\\Program.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
-              "RelativeToolTip": "IPSUPC\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAuwD4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:20:29.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MedicosDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Medicos\\MedicosDAL.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio\\Medicos\\MedicosDAL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Medicos\\MedicosDAL.cs",
-              "RelativeToolTip": "IPSUPC.BE.Repositorio\\Medicos\\MedicosDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:11:36.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IPSUPC.csproj",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\IPSUPC.csproj",
-              "RelativeDocumentMoniker": "IPSUPC\\IPSUPC.csproj",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\IPSUPC.csproj",
-              "RelativeToolTip": "IPSUPC\\IPSUPC.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-05T17:31:09.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IPSUPC.BE.Infraestructure.csproj",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
-              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-24T16:01:03.847Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "CitasMedicasController.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\CitasMedicas\\CitasMedicasController.cs",
               "RelativeDocumentMoniker": "IPSUPC\\Controllers\\CitasMedicas\\CitasMedicasController.cs",
@@ -669,7 +565,188 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CitasMedicas.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\CitasMedicas.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\CitasMedicas.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\CitasMedicas.cs",
+              "RelativeToolTip": "IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\CitasMedicas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T04:20:19.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CitasMedicasProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Mapeos\\CitasMedicas\\CitasMedicasProfile.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Mapeos\\CitasMedicas\\CitasMedicasProfile.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Mapeos\\CitasMedicas\\CitasMedicasProfile.cs",
+              "RelativeToolTip": "IPSUPC.BE.Transversales\\Mapeos\\CitasMedicas\\CitasMedicasProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T20:06:02.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CitasMedicasDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\CitasMedicas\\CitasMedicasDAL.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio\\CitasMedicas\\CitasMedicasDAL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\CitasMedicas\\CitasMedicasDAL.cs",
+              "RelativeToolTip": "IPSUPC.BE.Repositorio\\CitasMedicas\\CitasMedicasDAL.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwDQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T05:17:38.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CitasMedicasBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\CitasMedicas\\CitasMedicasBLL.cs",
+              "RelativeDocumentMoniker": "IPSUPC.Servicio\\CitasMedicas\\CitasMedicasBLL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\CitasMedicas\\CitasMedicasBLL.cs",
+              "RelativeToolTip": "IPSUPC.Servicio\\CitasMedicas\\CitasMedicasBLL.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:35:59.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MedicosController.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\Medicos\\MedicosController.cs",
+              "RelativeDocumentMoniker": "IPSUPC\\Controllers\\Medicos\\MedicosController.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\Medicos\\MedicosController.cs",
+              "RelativeToolTip": "IPSUPC\\Controllers\\Medicos\\MedicosController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:17:07.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MedicosBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Medicos\\MedicosBLL.cs",
+              "RelativeDocumentMoniker": "IPSUPC.Servicio\\Medicos\\MedicosBLL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Medicos\\MedicosBLL.cs",
+              "RelativeToolTip": "IPSUPC.Servicio\\Medicos\\MedicosBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:14:05.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IMedicosBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\Medicos\\IMedicosBLL.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Servicio.Interface\\Medicos\\IMedicosBLL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\Medicos\\IMedicosBLL.cs",
+              "RelativeToolTip": "IPSUPC.BE.Servicio.Interface\\Medicos\\IMedicosBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:15:23.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IMedicosDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
+              "RelativeToolTip": "IPSUPC.BE.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:10:07.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICitasMedicasBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\CitasMedicas\\ICitasMedicasBLL.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Servicio.Interface\\CitasMedicas\\ICitasMedicasBLL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\CitasMedicas\\ICitasMedicasBLL.cs",
+              "RelativeToolTip": "IPSUPC.BE.Servicio.Interface\\CitasMedicas\\ICitasMedicasBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:32:08.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CambioFotoPerfil.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CustomUser\\CambioFotoPerfil.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\CustomUser\\CambioFotoPerfil.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CustomUser\\CambioFotoPerfil.cs",
+              "RelativeToolTip": "IPSUPC.BE.Transversales\\Entidades\\CustomUser\\CambioFotoPerfil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T02:33:14.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICitasMedicasDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\CitasMedicas\\ICitasMedicasDAL.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio.Interface\\CitasMedicas\\ICitasMedicasDAL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\CitasMedicas\\ICitasMedicasDAL.cs",
+              "RelativeToolTip": "IPSUPC.BE.Repositorio.Interface\\CitasMedicas\\ICitasMedicasDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T05:15:53.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
+              "RelativeDocumentMoniker": "IPSUPC\\Program.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
+              "RelativeToolTip": "IPSUPC\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwD4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:20:29.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MedicosDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Medicos\\MedicosDAL.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio\\Medicos\\MedicosDAL.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Medicos\\MedicosDAL.cs",
+              "RelativeToolTip": "IPSUPC.BE.Repositorio\\Medicos\\MedicosDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:11:36.063Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "IPSUPC.csproj",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\IPSUPC.csproj",
+              "RelativeDocumentMoniker": "IPSUPC\\IPSUPC.csproj",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\IPSUPC.csproj",
+              "RelativeToolTip": "IPSUPC\\IPSUPC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-05T17:31:09.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IPSUPC.BE.Infraestructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
+              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-24T16:01:03.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "MedicosProfile.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Mapeos\\Medicos\\MedicosProfile.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Mapeos\\Medicos\\MedicosProfile.cs",
@@ -681,31 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IPSUPCDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
-              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:13:04.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IHostExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
-              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:07:56.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "IPSUPC.BE.Transversales.csproj",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj",
@@ -717,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "CloudinaryService.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Image\\CloudinaryService.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Image\\CloudinaryService.cs",
@@ -729,19 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PacientesBLL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Pacientes\\PacientesBLL.cs",
-              "RelativeDocumentMoniker": "IPSUPC.Servicio\\Pacientes\\PacientesBLL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Pacientes\\PacientesBLL.cs",
-              "RelativeToolTip": "IPSUPC.Servicio\\Pacientes\\PacientesBLL.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T02:13:07.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "IPacientesBLL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\Pacientes\\IPacientesBLL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Servicio.Interface\\Pacientes\\IPacientesBLL.cs",
@@ -753,19 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "PacientesDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Pacientes\\PacientesDAL.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio\\Pacientes\\PacientesDAL.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Pacientes\\PacientesDAL.cs",
-              "RelativeToolTip": "IPSUPC.BE.Repositorio\\Pacientes\\PacientesDAL.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAhwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T01:50:04.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "IPacientesDAL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\Pacientes\\IPacientesDAL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio.Interface\\Pacientes\\IPacientesDAL.cs",
@@ -777,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Pacientes.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Pacientes\\Pacientes.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Pacientes\\Pacientes.cs",
@@ -789,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "20250424135041_imagenesusuarios.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250424135041_imagenesusuarios.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250424135041_imagenesusuarios.cs",
@@ -801,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Medico.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Medicos\\Medico.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Medicos\\Medico.cs",
@@ -813,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "PacientesEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Pacientes\\PacientesEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Pacientes\\PacientesEntityConfiguration.cs",
@@ -825,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "PacientesProfile.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Mapeos\\Pacientes\\PacientesProfile.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Mapeos\\Pacientes\\PacientesProfile.cs",
@@ -837,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "PacientesDTO.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Pacientes\\DTO\u0027s\\PacientesDTO.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Pacientes\\DTO\u0027s\\PacientesDTO.cs",
@@ -861,7 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "TipoConsulta.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\TipoConsulta.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\TipoConsulta.cs",
@@ -873,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "TipoConsultaEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\TipoConsulta\\TipoConsultaEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\TipoConsulta\\TipoConsultaEntityConfiguration.cs",
@@ -885,7 +914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "HorasMedicasEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\HorasMedicas\\HorasMedicasEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\HorasMedicas\\HorasMedicasEntityConfiguration.cs",
@@ -894,18 +923,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T04:24:37.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CitasMedicasEntityConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\CitasMedicas\\CitasMedicasEntityConfiguration.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\CitasMedicas\\CitasMedicasEntityConfiguration.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\CitasMedicas\\CitasMedicasEntityConfiguration.cs",
-              "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\CitasMedicas\\CitasMedicasEntityConfiguration.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwDQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T04:23:33.946Z"
             },
             {
               "$type": "Document",
@@ -921,7 +938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "20250424045120_CitasMedicas.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250424045120_CitasMedicas.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250424045120_CitasMedicas.cs",
@@ -933,7 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "DbConstants.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Data\\DbConstants.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Data\\DbConstants.cs",
@@ -945,7 +962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "GeneroEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Genero\\GeneroEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Genero\\GeneroEntityConfiguration.cs",
@@ -957,7 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "EstadoCitaEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\EstadoCita\\EstadoCitaEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\EstadoCita\\EstadoCitaEntityConfiguration.cs",
@@ -969,7 +986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "EstadoCivilEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\EstadoCivil\\EstadoCivilEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\EstadoCivil\\EstadoCivilEntityConfiguration.cs",
@@ -981,7 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "DiaEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Dia\\DiaEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Dia\\DiaEntityConfiguration.cs",
@@ -993,7 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "EstadoCita.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\EstadoCita.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\EstadoCita.cs",
@@ -1005,7 +1022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "UsuarioEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Usuarios\\UsuarioEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Usuarios\\UsuarioEntityConfiguration.cs",
@@ -1017,7 +1034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "Dias.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\Dias.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\Dias.cs",
@@ -1029,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "HorasMedicas.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\HorasMedicas.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\HorasMedicas.cs",
@@ -1041,7 +1058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\appsettings.json",
               "RelativeDocumentMoniker": "IPSUPC\\appsettings.json",
@@ -1053,7 +1070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "CloudinarySettings.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Image\\CloudinarySettings.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Image\\CloudinarySettings.cs",
@@ -1065,7 +1082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "MedicoDTO.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Medicos\\DTO\u0027s\\MedicoDTO.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Medicos\\DTO\u0027s\\MedicoDTO.cs",
@@ -1077,7 +1094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "ICloudinaryService.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Image\\ICloudinaryService.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Image\\ICloudinaryService.cs",
@@ -1089,7 +1106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\AppData\\Roaming\\Microsoft\\UserSecrets\\5d7e0a22-b6b3-44cc-9dfa-9ce112732cc4\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\5d7e0a22-b6b3-44cc-9dfa-9ce112732cc4\\secrets.json",
@@ -1101,7 +1118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "UsuarioDAL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Usuario\\UsuarioDAL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio\\Usuario\\UsuarioDAL.cs",
@@ -1113,7 +1130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\Usuario\\UsuarioController.cs",
               "RelativeDocumentMoniker": "IPSUPC\\Controllers\\Usuario\\UsuarioController.cs",
@@ -1125,7 +1142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "Genero.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Enums\\Genero.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Enums\\Genero.cs",
@@ -1137,7 +1154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "UsuarioProfile.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Mapeos\\Usuario\\UsuarioProfile.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Mapeos\\Usuario\\UsuarioProfile.cs",
@@ -1149,7 +1166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "UsuarioBLL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Usuario\\UsuarioBLL.cs",
               "RelativeDocumentMoniker": "IPSUPC.Servicio\\Usuario\\UsuarioBLL.cs",
@@ -1161,7 +1178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "20250408024730_MultiplesTablas.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250408024730_MultiplesTablas.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250408024730_MultiplesTablas.cs",
@@ -1173,19 +1190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Generos.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\Generos.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\Generos.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\Generos.cs",
-              "RelativeToolTip": "IPSUPC.BE.Transversales\\Core\\Generos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T01:16:04.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "20250406054607_AddAuditableFieldsToUsuario2.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250406054607_AddAuditableFieldsToUsuario2.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250406054607_AddAuditableFieldsToUsuario2.cs",
@@ -1197,7 +1202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "20250408024730_MultiplesTablas.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250408024730_MultiplesTablas.Designer.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250408024730_MultiplesTablas.Designer.cs",
@@ -1209,7 +1214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "IPSUPCDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\IPSUPCDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\IPSUPCDbContextModelSnapshot.cs",
@@ -1221,7 +1226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "TipoDocumento.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\TipoDocumento.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\TipoDocumento.cs",
@@ -1233,7 +1238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SeedData.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SeedData.cs",
@@ -1242,18 +1247,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T01:16:05.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "EstadoCivil.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\EstadoCivil.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\EstadoCivil.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\EstadoCivil.cs",
-              "RelativeToolTip": "IPSUPC.BE.Transversales\\Core\\EstadoCivil.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAqwDIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T01:27:50.984Z"
             },
             {
               "$type": "Document",

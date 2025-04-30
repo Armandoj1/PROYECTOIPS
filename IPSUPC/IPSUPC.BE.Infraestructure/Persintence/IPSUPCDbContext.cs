@@ -44,6 +44,19 @@ namespace IPSUPC.BE.Infraestructure.Persintence
             base.OnModelCreating(modelBuilder);
         }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                // Configuración de resiliencia a errores transitorios
+                optionsBuilder.UseSqlServer("YourConnectionStringHere", options =>
+                    options.EnableRetryOnFailure(
+                        maxRetryCount: 5,
+                        maxRetryDelay: TimeSpan.FromSeconds(10),
+                        errorNumbersToAdd: null));
+            }
+        }
+
         private void AuditChanges()
         {
             ChangeTracker.DetectChanges();
@@ -93,7 +106,6 @@ namespace IPSUPC.BE.Infraestructure.Persintence
                 }
             }
         }
-
 
         private void HasSequences(ModelBuilder modelBuilder)
         {
