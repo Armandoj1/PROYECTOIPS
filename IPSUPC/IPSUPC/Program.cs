@@ -20,8 +20,11 @@ public class Program
 {
     public static async Task Main(string[] args)
     {
+
         var builder = WebApplication.CreateBuilder(args);
 
+
+        builder.Services.AddHealthChecks();
         builder.Services.Configure<Microsoft.AspNetCore.Mvc.JsonOptions>(options =>
         {
             options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
