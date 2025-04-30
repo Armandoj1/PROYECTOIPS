@@ -31,8 +31,8 @@ jobs:
       with:
         dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
 
-    - name: Install Swashbuckle CLI
-      run: dotnet tool install --global Swashbuckle.AspNetCore.Cli
+    - name: Restore local tools
+      run: dotnet tool restore
 
     - name: Restore dependencies
       run: dotnet restore ${{ env.WORKING_DIRECTORY }}
@@ -47,7 +47,7 @@ jobs:
       run: dotnet publish ${{ env.WORKING_DIRECTORY }} --configuration ${{ env.CONFIGURATION }} --no-build --output ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
     - name: Generate swagger.json
-      run: dotnet swagger tofile --output "${{ env.API_IMPORT_SPECIFICATION_PATH }}" "${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/IPSUPC.dll" v1
+      run: dotnet tool run swagger tofile --output "${{ env.API_IMPORT_SPECIFICATION_PATH }}" "${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/IPSUPC.dll" v1
 
     - name: Upload published app as artifact
       uses: actions/upload-artifact@v4
