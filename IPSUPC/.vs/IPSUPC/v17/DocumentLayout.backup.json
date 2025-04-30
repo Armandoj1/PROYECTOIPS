@@ -3,6 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\.github\\workflows\\IPSUPC.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|solutionrelative:ipsupc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|solutionrelative:ipsupc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc\\controllers\\pacientes\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|solutionrelative:ipsupc\\controllers\\pacientes\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -73,10 +84,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{09EBD325-65B9-4966-B4BF-BDB5FF5413F4}|IPSUPC.BE.Servicio.Interface\\IPSUPC.BE.Servicio.Interface.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.servicio.interface\\citasmedicas\\icitasmedicasbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09EBD325-65B9-4966-B4BF-BDB5FF5413F4}|IPSUPC.BE.Servicio.Interface\\IPSUPC.BE.Servicio.Interface.csproj|solutionrelative:ipsupc.be.servicio.interface\\citasmedicas\\icitasmedicasbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FFA8772-23CE-49C1-BAA1-E7BF2BA6EEEF}|IPSUPC\\IPSUPC.csproj|solutionrelative:ipsupc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09EBD325-65B9-4966-B4BF-BDB5FF5413F4}|IPSUPC.BE.Servicio.Interface\\IPSUPC.BE.Servicio.Interface.csproj|c:\\users\\jos\u00E9 a. rodr\u00EDguez\\desktop\\proyecto_ips\\proyectoips\\ipsupc\\ipsupc.be.servicio.interface\\medicos\\imedicosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -397,7 +404,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -437,20 +444,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Generos.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\Generos.cs",
-              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\Generos.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\Generos.cs",
-              "RelativeToolTip": "IPSUPC.BE.Transversales\\Core\\Generos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T01:16:04.165Z",
+              "DocumentIndex": 0,
+              "Title": "IPSUPC.yml",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\.github\\workflows\\IPSUPC.yml",
+              "RelativeDocumentMoniker": "..\\.github\\workflows\\IPSUPC.yml",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\.github\\workflows\\IPSUPC.yml",
+              "RelativeToolTip": "..\\.github\\workflows\\IPSUPC.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-04-30T21:43:05.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "IPSUPC\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Properties\\launchSettings.json",
+              "RelativeToolTip": "IPSUPC\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T21:38:48.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "EstadoCivil.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\EstadoCivil.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\EstadoCivil.cs",
@@ -458,12 +478,11 @@
               "RelativeToolTip": "IPSUPC.BE.Transversales\\Core\\EstadoCivil.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T01:27:50.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T01:27:50.984Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PacientesDAL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Pacientes\\PacientesDAL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio\\Pacientes\\PacientesDAL.cs",
@@ -471,12 +490,11 @@
               "RelativeToolTip": "IPSUPC.BE.Repositorio\\Pacientes\\PacientesDAL.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAtwC8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T01:50:04.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T01:50:04.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PacientesBLL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Pacientes\\PacientesBLL.cs",
               "RelativeDocumentMoniker": "IPSUPC.Servicio\\Pacientes\\PacientesBLL.cs",
@@ -484,12 +502,11 @@
               "RelativeToolTip": "IPSUPC.Servicio\\Pacientes\\PacientesBLL.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAtwDMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T02:13:07.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T02:13:07.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PacientesController.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\Pacientes\\PacientesController.cs",
               "RelativeDocumentMoniker": "IPSUPC\\Controllers\\Pacientes\\PacientesController.cs",
@@ -502,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "IPSUPCDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
@@ -510,12 +527,11 @@
               "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Persintence\\IPSUPCDbContext.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAA1wGUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:13:04.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T01:13:04.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IHostExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
@@ -523,12 +539,36 @@
               "RelativeToolTip": "IPSUPC.BE.Infraestructure\\Extensions\\IHostExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:07:56.328Z",
+              "WhenOpened": "2025-04-04T01:07:56.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
+              "RelativeDocumentMoniker": "IPSUPC\\Program.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
+              "RelativeToolTip": "IPSUPC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:20:29.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
+              "Title": "Generos.cs",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\Generos.cs",
+              "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\Generos.cs",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\Generos.cs",
+              "RelativeToolTip": "IPSUPC.BE.Transversales\\Core\\Generos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T01:16:04.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CitasMedicasEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\CitasMedicas\\CitasMedicasEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\CitasMedicas\\CitasMedicasEntityConfiguration.cs",
@@ -540,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "CitasMedicasDTO.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\DTO\u0027s\\CitasMedicasDTO.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\DTO\u0027s\\CitasMedicasDTO.cs",
@@ -552,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "CitasMedicasController.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\CitasMedicas\\CitasMedicasController.cs",
               "RelativeDocumentMoniker": "IPSUPC\\Controllers\\CitasMedicas\\CitasMedicasController.cs",
@@ -560,12 +600,11 @@
               "RelativeToolTip": "IPSUPC\\Controllers\\CitasMedicas\\CitasMedicasController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T14:38:14.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T14:38:14.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "CitasMedicas.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\CitasMedicas.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\CitasMedicas.cs",
@@ -573,12 +612,11 @@
               "RelativeToolTip": "IPSUPC.BE.Transversales\\Entidades\\CitasMedicas\\CitasMedicas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T04:20:19.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T04:20:19.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "CitasMedicasProfile.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Mapeos\\CitasMedicas\\CitasMedicasProfile.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Mapeos\\CitasMedicas\\CitasMedicasProfile.cs",
@@ -590,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "CitasMedicasDAL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\CitasMedicas\\CitasMedicasDAL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio\\CitasMedicas\\CitasMedicasDAL.cs",
@@ -602,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "CitasMedicasBLL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\CitasMedicas\\CitasMedicasBLL.cs",
               "RelativeDocumentMoniker": "IPSUPC.Servicio\\CitasMedicas\\CitasMedicasBLL.cs",
@@ -614,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "MedicosController.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\Medicos\\MedicosController.cs",
               "RelativeDocumentMoniker": "IPSUPC\\Controllers\\Medicos\\MedicosController.cs",
@@ -626,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "MedicosBLL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Medicos\\MedicosBLL.cs",
               "RelativeDocumentMoniker": "IPSUPC.Servicio\\Medicos\\MedicosBLL.cs",
@@ -638,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "IMedicosBLL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\Medicos\\IMedicosBLL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Servicio.Interface\\Medicos\\IMedicosBLL.cs",
@@ -650,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "IMedicosDAL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio.Interface\\Medicos\\IMedicosDAL.cs",
@@ -662,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "ICitasMedicasBLL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\CitasMedicas\\ICitasMedicasBLL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Servicio.Interface\\CitasMedicas\\ICitasMedicasBLL.cs",
@@ -674,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "CambioFotoPerfil.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CustomUser\\CambioFotoPerfil.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\CustomUser\\CambioFotoPerfil.cs",
@@ -686,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ICitasMedicasDAL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\CitasMedicas\\ICitasMedicasDAL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio.Interface\\CitasMedicas\\ICitasMedicasDAL.cs",
@@ -698,19 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
-              "RelativeDocumentMoniker": "IPSUPC\\Program.cs",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
-              "RelativeToolTip": "IPSUPC\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAuwD4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:20:29.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "MedicosDAL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Medicos\\MedicosDAL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio\\Medicos\\MedicosDAL.cs",
@@ -722,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "IPSUPC.csproj",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\IPSUPC.csproj",
               "RelativeDocumentMoniker": "IPSUPC\\IPSUPC.csproj",
@@ -734,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "IPSUPC.BE.Infraestructure.csproj",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
@@ -746,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "MedicosProfile.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Mapeos\\Medicos\\MedicosProfile.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Mapeos\\Medicos\\MedicosProfile.cs",
@@ -758,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "IPSUPC.BE.Transversales.csproj",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj",
@@ -770,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "CloudinaryService.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Image\\CloudinaryService.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Image\\CloudinaryService.cs",
@@ -782,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "IPacientesBLL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\Pacientes\\IPacientesBLL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Servicio.Interface\\Pacientes\\IPacientesBLL.cs",
@@ -794,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "IPacientesDAL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\Pacientes\\IPacientesDAL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio.Interface\\Pacientes\\IPacientesDAL.cs",
@@ -806,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Pacientes.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Pacientes\\Pacientes.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Pacientes\\Pacientes.cs",
@@ -818,7 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "20250424135041_imagenesusuarios.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250424135041_imagenesusuarios.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250424135041_imagenesusuarios.cs",
@@ -830,7 +856,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Medico.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Medicos\\Medico.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Medicos\\Medico.cs",
@@ -842,7 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "PacientesEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Pacientes\\PacientesEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Pacientes\\PacientesEntityConfiguration.cs",
@@ -854,7 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "PacientesProfile.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Mapeos\\Pacientes\\PacientesProfile.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Mapeos\\Pacientes\\PacientesProfile.cs",
@@ -866,7 +892,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "PacientesDTO.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Pacientes\\DTO\u0027s\\PacientesDTO.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Pacientes\\DTO\u0027s\\PacientesDTO.cs",
@@ -878,7 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 97,
               "Title": "20250424045839_CitasMedicas1.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250424045839_CitasMedicas1.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250424045839_CitasMedicas1.cs",
@@ -890,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "TipoConsulta.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\TipoConsulta.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\TipoConsulta.cs",
@@ -902,7 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "TipoConsultaEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\TipoConsulta\\TipoConsultaEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\TipoConsulta\\TipoConsultaEntityConfiguration.cs",
@@ -914,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "HorasMedicasEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\HorasMedicas\\HorasMedicasEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\HorasMedicas\\HorasMedicasEntityConfiguration.cs",
@@ -926,7 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 98,
               "Title": "20250424045220_CitasMedicas.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250424045220_CitasMedicas.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250424045220_CitasMedicas.cs",
@@ -938,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "20250424045120_CitasMedicas.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250424045120_CitasMedicas.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250424045120_CitasMedicas.cs",
@@ -950,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "DbConstants.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Data\\DbConstants.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Data\\DbConstants.cs",
@@ -962,7 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "GeneroEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Genero\\GeneroEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Genero\\GeneroEntityConfiguration.cs",
@@ -974,7 +1000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "EstadoCitaEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\EstadoCita\\EstadoCitaEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\EstadoCita\\EstadoCitaEntityConfiguration.cs",
@@ -986,7 +1012,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "EstadoCivilEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\EstadoCivil\\EstadoCivilEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\EstadoCivil\\EstadoCivilEntityConfiguration.cs",
@@ -998,7 +1024,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "DiaEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Dia\\DiaEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Dia\\DiaEntityConfiguration.cs",
@@ -1010,7 +1036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "EstadoCita.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\EstadoCita.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\EstadoCita.cs",
@@ -1022,7 +1048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "UsuarioEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Usuarios\\UsuarioEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Usuarios\\UsuarioEntityConfiguration.cs",
@@ -1034,7 +1060,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "Dias.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\Dias.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\Dias.cs",
@@ -1046,7 +1072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "HorasMedicas.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\HorasMedicas.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\HorasMedicas.cs",
@@ -1058,7 +1084,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\appsettings.json",
               "RelativeDocumentMoniker": "IPSUPC\\appsettings.json",
@@ -1070,7 +1096,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "CloudinarySettings.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Image\\CloudinarySettings.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Image\\CloudinarySettings.cs",
@@ -1082,7 +1108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "MedicoDTO.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Medicos\\DTO\u0027s\\MedicoDTO.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Medicos\\DTO\u0027s\\MedicoDTO.cs",
@@ -1094,7 +1120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "ICloudinaryService.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Image\\ICloudinaryService.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Image\\ICloudinaryService.cs",
@@ -1106,7 +1132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\AppData\\Roaming\\Microsoft\\UserSecrets\\5d7e0a22-b6b3-44cc-9dfa-9ce112732cc4\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\5d7e0a22-b6b3-44cc-9dfa-9ce112732cc4\\secrets.json",
@@ -1118,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "UsuarioDAL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Usuario\\UsuarioDAL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio\\Usuario\\UsuarioDAL.cs",
@@ -1130,7 +1156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Controllers\\Usuario\\UsuarioController.cs",
               "RelativeDocumentMoniker": "IPSUPC\\Controllers\\Usuario\\UsuarioController.cs",
@@ -1142,7 +1168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "Genero.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Enums\\Genero.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Enums\\Genero.cs",
@@ -1154,7 +1180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "UsuarioProfile.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Mapeos\\Usuario\\UsuarioProfile.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Mapeos\\Usuario\\UsuarioProfile.cs",
@@ -1166,7 +1192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "UsuarioBLL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Usuario\\UsuarioBLL.cs",
               "RelativeDocumentMoniker": "IPSUPC.Servicio\\Usuario\\UsuarioBLL.cs",
@@ -1178,7 +1204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "20250408024730_MultiplesTablas.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250408024730_MultiplesTablas.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250408024730_MultiplesTablas.cs",
@@ -1190,7 +1216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "20250406054607_AddAuditableFieldsToUsuario2.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250406054607_AddAuditableFieldsToUsuario2.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250406054607_AddAuditableFieldsToUsuario2.cs",
@@ -1202,7 +1228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "20250408024730_MultiplesTablas.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250408024730_MultiplesTablas.Designer.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250408024730_MultiplesTablas.Designer.cs",
@@ -1214,7 +1240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "IPSUPCDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\IPSUPCDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\IPSUPCDbContextModelSnapshot.cs",
@@ -1226,7 +1252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "TipoDocumento.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\TipoDocumento.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\TipoDocumento.cs",
@@ -1238,7 +1264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SeedData.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SeedData.cs",
@@ -1250,7 +1276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "IAuditableEntity.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Common\\IAuditableEntity.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Common\\IAuditableEntity.cs",
@@ -1262,7 +1288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "AuditableEntity.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Common\\AuditableEntity.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Common\\AuditableEntity.cs",
@@ -1274,7 +1300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 70,
               "Title": "IUsuarioDAL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\Usuario\\IUsuarioDAL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio.Interface\\Usuario\\IUsuarioDAL.cs",
@@ -1286,7 +1312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "IUsuarioBLL.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\Usuario\\IUsuarioBLL.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Servicio.Interface\\Usuario\\IUsuarioBLL.cs",
@@ -1298,7 +1324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 71,
               "Title": "MedicosEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Medicos\\MedicosEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Medicos\\MedicosEntityConfiguration.cs",
@@ -1310,7 +1336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 72,
               "Title": "TipoDocumentoEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\TipoDocumento\\TipoDocumentoEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\TipoDocumento\\TipoDocumentoEntityConfiguration.cs",
@@ -1322,7 +1348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 75,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Class1.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Class1.cs",
@@ -1334,7 +1360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 76,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Usuario\\Usuario.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Usuario\\Usuario.cs",
@@ -1346,7 +1372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 77,
               "Title": "CambiarPassword.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Usuario\\Credenciales\\CambiarPassword.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Usuario\\Credenciales\\CambiarPassword.cs",
@@ -1358,7 +1384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 73,
               "Title": "Rol.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Core\\Rol.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Core\\Rol.cs",
@@ -1370,7 +1396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 74,
               "Title": "ActualizarRoles.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Usuario\\Credenciales\\ActualizarRoles.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Usuario\\Credenciales\\ActualizarRoles.cs",
@@ -1382,7 +1408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 78,
               "Title": "UsuarioCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Usuario\\DTO\u0027s\\UsuarioCreateDTO.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Usuario\\DTO\u0027s\\UsuarioCreateDTO.cs",
@@ -1394,7 +1420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 79,
               "Title": "CustomLoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\CustomLogin\\CustomLoginRequest.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\CustomLogin\\CustomLoginRequest.cs",
@@ -1406,7 +1432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 95,
               "Title": "20250406054406_AddAuditableFieldsToUsuario1.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250406054406_AddAuditableFieldsToUsuario1.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250406054406_AddAuditableFieldsToUsuario1.cs",
@@ -1418,7 +1444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 96,
               "Title": "20250406052646_AddAuditableFieldsToUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250406052646_AddAuditableFieldsToUsuario.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250406052646_AddAuditableFieldsToUsuario.cs",
@@ -1430,7 +1456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 80,
               "Title": "UsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Entidades\\Usuario\\DTO\u0027s\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Entidades\\Usuario\\DTO\u0027s\\UsuarioDTO.cs",
@@ -1442,7 +1468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 81,
               "Title": "JwtConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Encriptacion\\JwtConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Encriptacion\\JwtConfiguration.cs",
@@ -1454,7 +1480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 93,
               "Title": "20250405174157_PrimeraMigracion.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Migrations\\20250405174157_PrimeraMigracion.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Migrations\\20250405174157_PrimeraMigracion.cs",
@@ -1466,7 +1492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 82,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\Class1.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio.Interface\\Class1.cs",
@@ -1478,7 +1504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 83,
               "Title": "SampleDataSeeder.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SampleDataSeeder.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\SeedData\\SampleDataSeeder.cs",
@@ -1490,7 +1516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 84,
               "Title": "RolEntityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Rol\\RolEntityConfiguration.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Persintence\\EntityConfiguration\\Rol\\RolEntityConfiguration.cs",
@@ -1502,7 +1528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 85,
               "Title": "Encrypt.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Encriptacion\\Encrypt.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Encriptacion\\Encrypt.cs",
@@ -1514,7 +1540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 87,
               "Title": "IServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\IServiceCollectionExtensions.cs",
@@ -1526,7 +1552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 86,
               "Title": "IMediatorExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\IMediatorExtensions.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\IMediatorExtensions.cs",
@@ -1538,7 +1564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 88,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Class1.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Class1.cs",
@@ -1550,7 +1576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 89,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\Common\\Entity.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Transversales\\Common\\Entity.cs",
@@ -1562,7 +1588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 90,
               "Title": "ModelBuilderExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\Extensions\\ModelBuilderExtensions.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Infraestructure\\Extensions\\ModelBuilderExtensions.cs",
@@ -1574,7 +1600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 91,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\Class1.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Repositorio\\Class1.cs",
@@ -1586,7 +1612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 94,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.Servicio\\Class1.cs",
               "RelativeDocumentMoniker": "IPSUPC.Servicio\\Class1.cs",
@@ -1598,7 +1624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 92,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Servicio.Interface\\Class1.cs",
               "RelativeDocumentMoniker": "IPSUPC.BE.Servicio.Interface\\Class1.cs",

@@ -450,22 +450,9 @@
               "RelativeDocumentMoniker": "..\\.github\\workflows\\IPSUPC.yml",
               "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\.github\\workflows\\IPSUPC.yml",
               "RelativeToolTip": "..\\.github\\workflows\\IPSUPC.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-04-30T21:43:05.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "IPSUPC\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Properties\\launchSettings.json",
-              "RelativeToolTip": "IPSUPC\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-30T21:38:48.212Z",
               "EditorCaption": ""
             },
             {
@@ -514,8 +501,7 @@
               "RelativeToolTip": "IPSUPC\\Controllers\\Pacientes\\PacientesController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAtwDEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T02:28:18.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T02:28:18.744Z"
             },
             {
               "$type": "Document",
@@ -549,10 +535,22 @@
               "RelativeDocumentMoniker": "IPSUPC\\Program.cs",
               "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Program.cs",
               "RelativeToolTip": "IPSUPC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAqwIYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T01:20:29.965Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "IPSUPC\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Jos\u00E9 A. Rodr\u00EDguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC\\Properties\\launchSettings.json",
+              "RelativeToolTip": "IPSUPC\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T21:38:48.212Z"
             },
             {
               "$type": "Document",

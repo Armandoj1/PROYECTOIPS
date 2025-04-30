@@ -10,6 +10,9 @@ using IPSUPC.BE.Infraestructure.Persintence;
 using IPSUPC.BE.Repositorio.Interface;
 using IPSUPC.BE.Servicio.Interface;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +21,6 @@ builder.Services.Configure<Microsoft.AspNetCore.Mvc.JsonOptions>(options =>
 {
     options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
 });
-
 builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options =>
 {
     options.SerializerOptions.Converters.Add(new JsonStringEnumConverter());
@@ -27,11 +29,11 @@ builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options =
 // Carga de archivos grandes
 builder.Services.Configure<FormOptions>(options =>
 {
-    options.MultipartBodyLengthLimit = 100_000_000; // 100 MB
+    options.MultipartBodyLengthLimit = 100_000_000;
 });
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.Limits.MaxRequestBodySize = 100_000_000; // 100 MB
+    options.Limits.MaxRequestBodySize = 100_000_000;
 });
 
 // DbContext
@@ -85,22 +87,49 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader());
 });
 
-// Controladores
-//builder.Services.AddControllers()
-//    .AddJsonOptions(options =>
-//    {
-//        options.JsonSerializerOptions.Converters.Add(new JsonDateOnlyConverter());
-//    });
+// Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "IPSUPC API", Version = "v1" });
+});
+
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
+// Middleware
 app.UseCors("CorsPolicy");
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-app.MapControllers();
 
-// Migraciones automáticas
+// Swagger (en todos los entornos)
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "IPSUPC API v1");
+    c.RoutePrefix = "swagger";
+});
+
+// Endpoints
+app.MapControllers();
+app.MapHealthChecks("/health", new HealthCheckOptions
+{
+    AllowCachingResponses = false,
+    ResponseWriter = async (context, report) =>
+    {
+        context.Response.ContentType = "application/json";
+        var response = new
+        {
+            Status = report.Status.ToString(),
+            Time = DateTime.UtcNow
+        };
+        await JsonSerializer.SerializeAsync(context.Response.Body, response);
+    }
+});
+
+// Migraciones
 await app.MigrateDbContext<IPSUPCDbContext>();
 
 await app.RunAsync();
