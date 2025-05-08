@@ -25,6 +25,10 @@ public class CitasMedicasProfile : Profile
             .ForMember(dest => dest.DiaID, opt => opt.MapFrom(src =>
                 Dias.GetById(src.DiaID) != null
                 ? Dias.GetById(src.DiaID).Code
+                : "Desconocido"))
+            .ForMember(dest => dest.LugarConsultaID, opt => opt.MapFrom(src =>
+                LugarConsulta.GetById(src.LugarConsultaID) != null
+                ? LugarConsulta.GetById(src.LugarConsultaID).Name
                 : "Desconocido"));
 
     }

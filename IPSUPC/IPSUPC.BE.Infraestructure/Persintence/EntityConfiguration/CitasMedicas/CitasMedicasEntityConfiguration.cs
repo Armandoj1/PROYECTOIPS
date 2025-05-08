@@ -51,5 +51,10 @@ public class CitasMedicasEntityConfiguration : IEntityTypeConfiguration<CitasMed
             .WithMany()
             .HasForeignKey(x => x.TipoConsultaID)
             .OnDelete(DeleteBehavior.Restrict);
+
+        builder.HasOne<LugarConsulta>()
+            .WithMany()
+            .HasForeignKey(x => x.LugarConsultaID)
+            .OnDelete(DeleteBehavior.Restrict);
     }
 }

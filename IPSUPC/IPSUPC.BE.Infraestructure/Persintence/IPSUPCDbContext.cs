@@ -25,6 +25,7 @@ namespace IPSUPC.BE.Infraestructure.Persintence
         public DbSet<TipoConsulta> TipoConsultas { get; set; }
         public DbSet<CitasMedicas> CitasMedicas { get; set; }
 
+
         #endregion
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
@@ -49,7 +50,7 @@ namespace IPSUPC.BE.Infraestructure.Persintence
             if (!optionsBuilder.IsConfigured)
             {
                 // Configuración de resiliencia a errores transitorios
-                optionsBuilder.UseSqlServer("YourConnectionStringHere", options =>
+                optionsBuilder.UseSqlServer("DefaultConnection", options =>
                     options.EnableRetryOnFailure(
                         maxRetryCount: 5,
                         maxRetryDelay: TimeSpan.FromSeconds(10),

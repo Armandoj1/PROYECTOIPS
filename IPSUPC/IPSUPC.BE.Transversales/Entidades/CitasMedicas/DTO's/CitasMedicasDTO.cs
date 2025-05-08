@@ -15,4 +15,5 @@ public class CitasMedicasDTO
     [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
     public DateTime FechaCita { get; set; }
     public string Observaciones { get; set; }
+    public string LugarConsultaID { get; set; }
 }

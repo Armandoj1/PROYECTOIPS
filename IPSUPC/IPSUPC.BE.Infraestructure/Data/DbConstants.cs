@@ -24,6 +24,7 @@ public static class DbConstants
         public const string Dia = nameof(Dia);
         public const string EstadoCita = nameof(EstadoCita);
         public const string TipoConsulta = nameof(TipoConsulta);
+        public const string LugarConsulta = nameof(LugarConsulta);
         public const string EFMigrationsHistory = $"_{nameof(EFMigrationsHistory)}_";
     }
 

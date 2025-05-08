@@ -1172,6 +1172,10 @@
           "observaciones": {
             "type": "string",
             "nullable": true
+          },
+          "lugarConsultaID": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

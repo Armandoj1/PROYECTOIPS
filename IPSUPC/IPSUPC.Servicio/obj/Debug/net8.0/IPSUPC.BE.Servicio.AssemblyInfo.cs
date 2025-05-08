@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IPSUPC.BE.Servicio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b68cfb07021c3d9b52914a1d609da1b4fd26de7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e45a65ca274cfe756d59a929a2fff3f411c4e700")]
 [assembly: System.Reflection.AssemblyProductAttribute("IPSUPC.BE.Servicio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IPSUPC.BE.Servicio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

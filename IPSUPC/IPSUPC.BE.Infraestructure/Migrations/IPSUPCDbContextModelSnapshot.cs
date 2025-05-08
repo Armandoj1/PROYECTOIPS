@@ -100,6 +100,9 @@ namespace IPSUPC.BE.Infraestructure.Migrations
                     b.Property<int>("HorasMedicasID")
                         .HasColumnType("int");
 
+                    b.Property<int>("LugarConsultaID")
+                        .HasColumnType("int");
+
                     b.Property<string>("MedicoID")
                         .IsRequired()
                         .HasColumnType("nvarchar(20)");
@@ -124,6 +127,8 @@ namespace IPSUPC.BE.Infraestructure.Migrations
                     b.HasIndex("EstadoCitaID");
 
                     b.HasIndex("HorasMedicasID");
+
+                    b.HasIndex("LugarConsultaID");
 
                     b.HasIndex("MedicoID");
 
@@ -774,6 +779,49 @@ namespace IPSUPC.BE.Infraestructure.Migrations
                         });
                 });
 
+            modelBuilder.Entity("IPSUPC.BE.Transversales.LugarConsulta", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("LugarConsulta", "dbo");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "CONSULTORIO 1 PRIMER PISO"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "CONSULTORIO 2 PRIMER PISO"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "CONSULTORIO 3 SEGUNDO PISO"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "CONSULTORIO 4 SEGUNDO PISO"
+                        });
+                });
+
             modelBuilder.Entity("IPSUPC.BE.Transversales.Rol", b =>
                 {
                     b.Property<int>("Id")
@@ -889,6 +937,12 @@ namespace IPSUPC.BE.Infraestructure.Migrations
                     b.HasOne("IPSUPC.BE.Transversales.HorasMedicas", null)
                         .WithMany()
                         .HasForeignKey("HorasMedicasID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("IPSUPC.BE.Transversales.LugarConsulta", null)
+                        .WithMany()
+                        .HasForeignKey("LugarConsultaID")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 

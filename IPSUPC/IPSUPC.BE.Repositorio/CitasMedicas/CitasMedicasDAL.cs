@@ -78,8 +78,30 @@ public class CitasMedicasDAL : ICitasMedicasDAL
 
     public async Task<CitasMedicas> UpdateCita(CitasMedicas citasMedicas)
     {
+        // Recalcular DiaID basado en la nueva FechaCita
+        var diaDeLaSemana = Dias.GetByDayOfWeek(citasMedicas.FechaCita.DayOfWeek);
+        citasMedicas.DiaID = diaDeLaSemana.DiaID;
+
+        // Validar si la hora existe
+        var horaDisponible = await _context.HorasMedicas
+            .AnyAsync(h => h.HoraMedicaID == citasMedicas.HorasMedicasID);
+
+        if (!horaDisponible)
+            throw new InvalidOperationException("La hora seleccionada no es válida.");
+
+        // Validar si ya hay una cita para ese médico, día y hora
+        bool existeCita = await _context.CitasMedicas
+            .AnyAsync(c =>
+                c.MedicoID == citasMedicas.MedicoID &&
+                c.FechaCita == citasMedicas.FechaCita &&
+                c.CitaMedicaID != citasMedicas.CitaMedicaID); // Excluir la actual
+
+        if (existeCita)
+            throw new InvalidOperationException("Ya existe una cita médica en la misma fecha y hora.");
+
         _context.Set<CitasMedicas>().Update(citasMedicas);
         await _context.SaveChangesAsync();
+
         return citasMedicas;
     }
 

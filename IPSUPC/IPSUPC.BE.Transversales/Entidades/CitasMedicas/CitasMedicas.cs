@@ -17,4 +17,5 @@ public class CitasMedicas
     [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
     public DateTime FechaCita { get; set; }
     public string Observaciones { get; set; }   
+    public int LugarConsultaID { get; set; }
 }
