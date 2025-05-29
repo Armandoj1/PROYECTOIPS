@@ -22,3 +22,27 @@ C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.Serv
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\refint\IPSUPC.BE.Servicio.dll
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.pdb
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\ref\IPSUPC.BE.Servicio.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Servicio.deps.json
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Servicio.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Servicio.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Infraestructure.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Repositorio.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Servicio.Interface.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Transversales.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Infraestructure.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Repositorio.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Servicio.Interface.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\bin\Debug\net8.0\IPSUPC.BE.Transversales.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.csproj.AssemblyReference.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.AssemblyInfoInputs.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.AssemblyInfo.cs
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.csproj.CoreCompileInputs.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.sourcelink.json
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\IPSUPC.B.8DEEEE57.Up2Date
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\refint\IPSUPC.BE.Servicio.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\IPSUPC.BE.Servicio.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.Servicio\obj\Debug\net8.0\ref\IPSUPC.BE.Servicio.dll

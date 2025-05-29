@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj": {}
+    "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj": {
+    "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
         "projectName": "IPSUPC.BE.Infraestructure",
-        "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\obj\\",
+        "projectPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\dario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\José A. Rodríguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj": {
-                "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj"
+              "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj": {
+                "projectPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj"
               }
             }
           }
@@ -46,7 +46,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.200"
       },
@@ -111,24 +111,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\IPSUPC.BE.Repositorio.Interface.csproj": {
+    "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\IPSUPC.BE.Repositorio.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\IPSUPC.BE.Repositorio.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\IPSUPC.BE.Repositorio.Interface.csproj",
         "projectName": "IPSUPC.BE.Repositorio.Interface",
-        "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\IPSUPC.BE.Repositorio.Interface.csproj",
-        "packagesPath": "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\obj\\",
+        "projectPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\IPSUPC.BE.Repositorio.Interface.csproj",
+        "packagesPath": "C:\\Users\\dario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\José A. Rodríguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -143,8 +143,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj": {
-                "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj"
+              "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj": {
+                "projectPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj"
               }
             }
           }
@@ -157,7 +157,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.200"
       },
@@ -194,24 +194,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj": {
+    "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj",
+        "projectUniqueName": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj",
         "projectName": "IPSUPC.BE.Repositorio",
-        "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj",
-        "packagesPath": "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\obj\\",
+        "projectPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\IPSUPC.BE.Repositorio.csproj",
+        "packagesPath": "C:\\Users\\dario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\José A. Rodríguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -226,14 +226,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj"
+              "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Infraestructure\\IPSUPC.BE.Infraestructure.csproj"
               },
-              "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\IPSUPC.BE.Repositorio.Interface.csproj": {
-                "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\IPSUPC.BE.Repositorio.Interface.csproj"
+              "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\IPSUPC.BE.Repositorio.Interface.csproj": {
+                "projectPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Repositorio.Interface\\IPSUPC.BE.Repositorio.Interface.csproj"
               },
-              "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj": {
-                "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj"
+              "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj": {
+                "projectPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj"
               }
             }
           }
@@ -246,7 +246,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.200"
       },
@@ -283,24 +283,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj": {
+    "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj",
+        "projectUniqueName": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj",
         "projectName": "IPSUPC.BE.Transversales",
-        "projectPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj",
-        "packagesPath": "C:\\Users\\José A. Rodríguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José A. Rodríguez\\Desktop\\PROYECTO_IPS\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\obj\\",
+        "projectPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\IPSUPC.BE.Transversales.csproj",
+        "packagesPath": "C:\\Users\\dario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dario\\OneDrive\\Documentos\\Programacion Web\\PROYECTOIPS\\IPSUPC\\IPSUPC.BE.Transversales\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\José A. Rodríguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -325,7 +325,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.200"
       },
@@ -382,7 +382,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

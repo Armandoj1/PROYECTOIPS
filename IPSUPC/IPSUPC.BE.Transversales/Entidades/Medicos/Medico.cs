@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations.Schema;
-
 namespace IPSUPC.BE.Transversales.Entidades;
 
 public class Medico

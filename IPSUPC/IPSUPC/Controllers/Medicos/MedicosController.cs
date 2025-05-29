@@ -41,7 +41,7 @@ namespace IPSUPC.Controllers.Medicos
         {
             var result = await _medicosBLL.CreateMedicosAsync(medico);
             return Ok(result);
-        }
+        }   
 
         [HttpPut("Update/{NumeroDocumento}")]
         public async Task<IActionResult> Update([FromBody] Medico medico)

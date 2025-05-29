@@ -14,3 +14,19 @@ C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.BE.R
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\bin\Debug\net8.0\IPSUPC.BE.Transversales.dll
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\bin\Debug\net8.0\IPSUPC.BE.Transversales.pdb
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\obj\Debug\net8.0\IPSUPC.B.ED118060.Up2Date
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\bin\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.deps.json
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\bin\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\bin\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\bin\Debug\net8.0\IPSUPC.BE.Transversales.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\bin\Debug\net8.0\IPSUPC.BE.Transversales.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\obj\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.csproj.AssemblyReference.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\obj\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\obj\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.AssemblyInfoInputs.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\obj\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.AssemblyInfo.cs
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\obj\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.csproj.CoreCompileInputs.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\obj\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.sourcelink.json
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\obj\Debug\net8.0\IPSUPC.B.ED118060.Up2Date
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\obj\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\obj\Debug\net8.0\refint\IPSUPC.BE.Repositorio.Interface.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\obj\Debug\net8.0\IPSUPC.BE.Repositorio.Interface.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Repositorio.Interface\obj\Debug\net8.0\ref\IPSUPC.BE.Repositorio.Interface.dll

@@ -1,5 +1,6 @@
 ﻿using IPSUPC.BE.Infraestructure.Persintence;
 using IPSUPC.BE.Repositorio.Interface;
+using IPSUPC.BE.Transversales;
 using IPSUPC.BE.Transversales.Entidades;
 using Microsoft.EntityFrameworkCore;
 
@@ -32,6 +33,7 @@ public class PacientesDAL : IPacientesDAL
         await _context.SaveChangesAsync();
         return pacientes;
     }
+
 
     public async Task<Pacientes> CambiarFotoPerfil(string id, string url)
     {

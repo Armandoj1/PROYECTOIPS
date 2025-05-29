@@ -63,10 +63,16 @@ public class UsuarioBLL : IUsuarioBLL
         if (usuarios is null || !usuarios.Any())
             throw new UnauthorizedAccessException("Credenciales incorrectas.");
 
-        var usuarioActivo = usuarios.FirstOrDefault(u => u.Estado == 'A')
-            ?? throw new UnauthorizedAccessException("El usuario no está activo.");
+        var usuariosActivos = usuarios.Where(u => u.Estado == 'A').ToList();
 
-        var roles = string.Join(",", usuarios.Select(u => Rol.GetRolById(u.RolId)?.Nombre ?? "Desconocido"));
+        if (!usuariosActivos.Any())
+            throw new UnauthorizedAccessException("El usuario no está activo.");
+
+        var usuarioActivo = usuariosActivos.First(); // Tomamos el primero para el DTO, como ya hacías
+
+        // Solo roles de usuarios activos
+        var roles = string.Join(",", usuariosActivos
+            .Select(u => Rol.GetRolById(u.RolId)?.Nombre ?? "Desconocido"));
 
         var usuarioDTO = new UsuarioDTO
         {

@@ -13,6 +13,9 @@ using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using IPSUPC.BE.Infraestructure.Options;
+using IPSUPC.BE.Servicio.Email;
+using IPSUPC.BE.Servicio.Interface.Email;
 
 namespace IPSUPC;
 
@@ -52,6 +55,9 @@ public class Program
         builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
         builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
 
+        builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+        builder.Services.AddScoped<IEmailService, EmailService>();
+
         builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
         builder.Services.AddScoped<IUsuarioDAL, UsuarioDAL>();
@@ -62,6 +68,8 @@ public class Program
         builder.Services.AddScoped<IMedicosBLL, MedicosBLL>();
         builder.Services.AddScoped<ICitasMedicasDAL, CitasMedicasDAL>();
         builder.Services.AddScoped<ICitasMedicasBLL, CitasMedicasBLL>();
+        builder.Services.AddScoped<IAdministradorDAL, AdministradorDAL>();
+        builder.Services.AddScoped<IAdministradorBLL, AdministradorBLL>();
 
         var jwtSettings = builder.Configuration.GetSection("Jwt");
         var secretKey = Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]);

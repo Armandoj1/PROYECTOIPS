@@ -7,7 +7,7 @@ using IPSUPC.BE.Transversales.Core;
 
 namespace IPSUPC.BE.Infraestructure.Persintence
 {
-    public class IPSUPCDbContext(DbContextOptions options) : DbContext(options)
+    public class IPSUPCDbContext : DbContext
     {
         internal IMediator _mediator;
 
@@ -24,9 +24,14 @@ namespace IPSUPC.BE.Infraestructure.Persintence
         public DbSet<Dias> Dias { get; set; }
         public DbSet<TipoConsulta> TipoConsultas { get; set; }
         public DbSet<CitasMedicas> CitasMedicas { get; set; }
-
+        public DbSet<Administrador> Administrador { get; set; }
+        public DbSet<CargoAdministrador> cargoAdministradores { get; set; }
 
         #endregion
+
+        public IPSUPCDbContext(DbContextOptions<IPSUPCDbContext> options) : base(options)
+        {
+        }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
@@ -114,14 +119,23 @@ namespace IPSUPC.BE.Infraestructure.Persintence
         }
     }
 
-    public class IPSUPCDbContextScopedFactory(
-        IDbContextFactory<IPSUPCDbContext> pooledFactory,
-        IMediator mediator) : IDbContextFactory<IPSUPCDbContext>
+    public class IPSUPCDbContextScopedFactory : IDbContextFactory<IPSUPCDbContext>
     {
+        private readonly IDbContextFactory<IPSUPCDbContext> _pooledFactory;
+        private readonly IMediator _mediator;
+
+        public IPSUPCDbContextScopedFactory(
+            IDbContextFactory<IPSUPCDbContext> pooledFactory,
+            IMediator mediator)
+        {
+            _pooledFactory = pooledFactory;
+            _mediator = mediator;
+        }
+
         public IPSUPCDbContext CreateDbContext()
         {
-            var context = pooledFactory.CreateDbContext();
-            context._mediator = mediator;
+            var context = _pooledFactory.CreateDbContext();
+            context._mediator = _mediator;
             return context;
         }
     }

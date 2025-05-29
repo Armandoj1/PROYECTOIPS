@@ -11,3 +11,16 @@ C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.BE.T
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\refint\IPSUPC.BE.Transversales.dll
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\IPSUPC.BE.Transversales.pdb
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\ref\IPSUPC.BE.Transversales.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\bin\Debug\net8.0\IPSUPC.BE.Transversales.deps.json
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\bin\Debug\net8.0\IPSUPC.BE.Transversales.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\bin\Debug\net8.0\IPSUPC.BE.Transversales.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\IPSUPC.BE.Transversales.csproj.AssemblyReference.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\IPSUPC.BE.Transversales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\IPSUPC.BE.Transversales.AssemblyInfoInputs.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\IPSUPC.BE.Transversales.AssemblyInfo.cs
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\IPSUPC.BE.Transversales.csproj.CoreCompileInputs.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\IPSUPC.BE.Transversales.sourcelink.json
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\IPSUPC.BE.Transversales.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\refint\IPSUPC.BE.Transversales.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\IPSUPC.BE.Transversales.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Transversales\obj\Debug\net8.0\ref\IPSUPC.BE.Transversales.dll

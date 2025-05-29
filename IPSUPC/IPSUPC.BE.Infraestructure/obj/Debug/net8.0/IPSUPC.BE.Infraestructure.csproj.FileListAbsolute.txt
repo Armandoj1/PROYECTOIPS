@@ -16,3 +16,21 @@ C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.BE.I
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\IPSUPC.BE.Infraestructure.pdb
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\IPSUPC.BE.Infraestructure.genruntimeconfig.cache
 C:\Users\José A. Rodríguez\Desktop\PROYECTO_IPS\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\ref\IPSUPC.BE.Infraestructure.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\bin\Debug\net8.0\IPSUPC.BE.Infraestructure.deps.json
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\bin\Debug\net8.0\IPSUPC.BE.Infraestructure.runtimeconfig.json
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\bin\Debug\net8.0\IPSUPC.BE.Infraestructure.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\bin\Debug\net8.0\IPSUPC.BE.Infraestructure.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\bin\Debug\net8.0\IPSUPC.BE.Transversales.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\bin\Debug\net8.0\IPSUPC.BE.Transversales.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\IPSUPC.BE.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\IPSUPC.BE.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\IPSUPC.BE.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\IPSUPC.BE.Infraestructure.AssemblyInfo.cs
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\IPSUPC.BE.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\IPSUPC.BE.Infraestructure.sourcelink.json
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\IPSUPC.B.B39929B8.Up2Date
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\IPSUPC.BE.Infraestructure.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\refint\IPSUPC.BE.Infraestructure.dll
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\IPSUPC.BE.Infraestructure.pdb
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\IPSUPC.BE.Infraestructure.genruntimeconfig.cache
+C:\Users\dario\OneDrive\Documentos\Programacion Web\PROYECTOIPS\IPSUPC\IPSUPC.BE.Infraestructure\obj\Debug\net8.0\ref\IPSUPC.BE.Infraestructure.dll
