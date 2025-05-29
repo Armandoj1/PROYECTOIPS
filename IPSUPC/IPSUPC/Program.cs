@@ -94,7 +94,6 @@ builder.Services.AddAuthentication(options =>
 });
 
 builder.Services.AddAuthorization();
-
 // Swagger + JWT
 builder.Services.AddSwaggerGen(c =>
 {

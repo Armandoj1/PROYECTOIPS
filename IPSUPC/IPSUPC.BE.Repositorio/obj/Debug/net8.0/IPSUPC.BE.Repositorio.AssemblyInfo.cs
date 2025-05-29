@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IPSUPC.BE.Repositorio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83f9aafe1673c017bf7796426c23a7f3144077ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+147df0ef64554630c6a63d5c6cae036357a74751")]
 [assembly: System.Reflection.AssemblyProductAttribute("IPSUPC.BE.Repositorio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IPSUPC.BE.Repositorio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
